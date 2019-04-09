@@ -22,9 +22,9 @@
     </edge>
     <edge xmi:type="uml:ControlFlow" xmi:id="_TEQ_0FqcEem2CfQ3IBuTKw" target="_N9_pkFqcEem2CfQ3IBuTKw" source="_RnKlIFqbEem2CfQ3IBuTKw"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_kJW4gFqcEem2CfQ3IBuTKw" target="_hkE4UFqcEem2CfQ3IBuTKw" source="_N9_pkFqcEem2CfQ3IBuTKw"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_HctLAFqVEem2CfQ3IBuTKw" name="Administrator" visibility="private" node="_ToeSYFqXEem2CfQ3IBuTKw _Xkol8FqXEem2CfQ3IBuTKw _7PA-wFqXEem2CfQ3IBuTKw _N9_pkFqcEem2CfQ3IBuTKw _hkE4UFqcEem2CfQ3IBuTKw"/>
     <group xmi:type="uml:ActivityPartition" xmi:id="_VH-oMFqVEem2CfQ3IBuTKw" name="Management concursuri" node="_KkGLAFqbEem2CfQ3IBuTKw _mpmdIFqbEem2CfQ3IBuTKw"/>
     <group xmi:type="uml:ActivityPartition" xmi:id="_eTt_AFqVEem2CfQ3IBuTKw" name="Sistem" node="_RnKlIFqbEem2CfQ3IBuTKw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_HctLAFqVEem2CfQ3IBuTKw" name="Administrator" visibility="private" node="_ToeSYFqXEem2CfQ3IBuTKw _Xkol8FqXEem2CfQ3IBuTKw _7PA-wFqXEem2CfQ3IBuTKw _N9_pkFqcEem2CfQ3IBuTKw _hkE4UFqcEem2CfQ3IBuTKw"/>
     <node xmi:type="uml:InitialNode" xmi:id="_ToeSYFqXEem2CfQ3IBuTKw" outgoing="_-oA64FqXEem2CfQ3IBuTKw" inPartition="_HctLAFqVEem2CfQ3IBuTKw"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_Xkol8FqXEem2CfQ3IBuTKw" name="Completare date concurs" incoming="_Bd3GoFqYEem2CfQ3IBuTKw" outgoing="_Qk-vYFqbEem2CfQ3IBuTKw" inPartition="_HctLAFqVEem2CfQ3IBuTKw"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_7PA-wFqXEem2CfQ3IBuTKw" incoming="_-oA64FqXEem2CfQ3IBuTKw _zlGqQFqbEem2CfQ3IBuTKw" outgoing="_Bd3GoFqYEem2CfQ3IBuTKw" inPartition="_HctLAFqVEem2CfQ3IBuTKw"/>

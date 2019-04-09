@@ -1,238 +1,1800 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_M8EA4FbKEemwX6UL-JQQCg" type="PapyrusUMLClassDiagram" name="Tichete concurs ciocolata" measurementUnit="Pixel">
-  <children xmi:type="notation:Shape" xmi:id="_1AYbIFbaEemwX6UL-JQQCg" type="Class_Shape">
-    <children xmi:type="notation:DecorationNode" xmi:id="_1Ad6sFbaEemwX6UL-JQQCg" type="Class_NameLabel"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_1AehwFbaEemwX6UL-JQQCg" type="Class_FloatingNameLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_1AehwVbaEemwX6UL-JQQCg" y="15"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_1AfI0FbaEemwX6UL-JQQCg" type="Class_AttributeCompartment">
-      <children xmi:type="notation:Shape" xmi:id="_DqRcsFbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_DqISwFbbEemwX6UL-JQQCg"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_DqRcsVbbEemwX6UL-JQQCg"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_M8EA4FbKEemwX6UL-JQQCg" type="PapyrusUMLClassDiagram" name="Tichete concurs ciocolata" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_1AYbIFbaEemwX6UL-JQQCg" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_1Ad6sFbaEemwX6UL-JQQCg" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_1AehwFbaEemwX6UL-JQQCg" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1AehwVbaEemwX6UL-JQQCg" y="15"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_1AfI0VbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_1AfI0lbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_1AfI01baEemwX6UL-JQQCg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1AfI1FbaEemwX6UL-JQQCg"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_1AfI1VbaEemwX6UL-JQQCg" type="Class_OperationCompartment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_1AfI1lbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_1AfI11baEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_1AfI2FbaEemwX6UL-JQQCg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1AfI2VbaEemwX6UL-JQQCg"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_1AfI2lbaEemwX6UL-JQQCg" type="Class_NestedClassifierCompartment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_1AfI21baEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_1AfI3FbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_1AfI3VbaEemwX6UL-JQQCg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1AfI3lbaEemwX6UL-JQQCg"/>
-    </children>
-    <element xmi:type="uml:Class" href="TicheteConcursCiocolata.uml#_1AK_wFbaEemwX6UL-JQQCg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1AYbIVbaEemwX6UL-JQQCg" x="460" y="120"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_4JNNQFbaEemwX6UL-JQQCg" type="Class_Shape">
-    <children xmi:type="notation:DecorationNode" xmi:id="_4JN0UFbaEemwX6UL-JQQCg" type="Class_NameLabel"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_4JN0UVbaEemwX6UL-JQQCg" type="Class_FloatingNameLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_4JN0UlbaEemwX6UL-JQQCg" y="15"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_4JN0U1baEemwX6UL-JQQCg" type="Class_AttributeCompartment">
-      <children xmi:type="notation:Shape" xmi:id="_mXd0gFbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_mXRnQFbbEemwX6UL-JQQCg"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_mXd0gVbbEemwX6UL-JQQCg"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_1AfI0FbaEemwX6UL-JQQCg" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_DqRcsFbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_DqISwFbbEemwX6UL-JQQCg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_DqRcsVbbEemwX6UL-JQQCg"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_1AfI0VbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_1AfI0lbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_1AfI01baEemwX6UL-JQQCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1AfI1FbaEemwX6UL-JQQCg"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_pBULoFbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_pBOFAFbbEemwX6UL-JQQCg"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_pBULoVbbEemwX6UL-JQQCg"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_1AfI1VbaEemwX6UL-JQQCg" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_1AfI1lbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_1AfI11baEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_1AfI2FbaEemwX6UL-JQQCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1AfI2VbaEemwX6UL-JQQCg"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_tZNY8FbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_tZDA4FbbEemwX6UL-JQQCg"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_tZNY8VbbEemwX6UL-JQQCg"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_1AfI2lbaEemwX6UL-JQQCg" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_1AfI21baEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_1AfI3FbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_1AfI3VbaEemwX6UL-JQQCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1AfI3lbaEemwX6UL-JQQCg"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_y1bKAFbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_y1QK4FbbEemwX6UL-JQQCg"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_y1bKAVbbEemwX6UL-JQQCg"/>
+      <element xmi:type="uml:Class" href="TicheteConcursCiocolata.uml#_1AK_wFbaEemwX6UL-JQQCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1AYbIVbaEemwX6UL-JQQCg" x="460" y="120"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_4JNNQFbaEemwX6UL-JQQCg" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_4JN0UFbaEemwX6UL-JQQCg" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_4JN0UVbaEemwX6UL-JQQCg" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4JN0UlbaEemwX6UL-JQQCg" y="15"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_4JN0VFbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_4JN0VVbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_4JN0VlbaEemwX6UL-JQQCg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JN0V1baEemwX6UL-JQQCg"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_4JN0WFbaEemwX6UL-JQQCg" type="Class_OperationCompartment">
-      <children xmi:type="notation:Shape" xmi:id="_KPdEIFbfEemwX6UL-JQQCg" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_KPTTIFbfEemwX6UL-JQQCg"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_KPdEIVbfEemwX6UL-JQQCg"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4JN0U1baEemwX6UL-JQQCg" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_mXd0gFbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_mXRnQFbbEemwX6UL-JQQCg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_mXd0gVbbEemwX6UL-JQQCg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_pBULoFbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_pBOFAFbbEemwX6UL-JQQCg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_pBULoVbbEemwX6UL-JQQCg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_tZNY8FbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_tZDA4FbbEemwX6UL-JQQCg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_tZNY8VbbEemwX6UL-JQQCg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_y1bKAFbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_y1QK4FbbEemwX6UL-JQQCg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_y1bKAVbbEemwX6UL-JQQCg"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4JN0VFbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_4JN0VVbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_4JN0VlbaEemwX6UL-JQQCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JN0V1baEemwX6UL-JQQCg"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_4JN0WVbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_4JN0WlbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_4JN0W1baEemwX6UL-JQQCg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JN0XFbaEemwX6UL-JQQCg"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_4JN0XVbaEemwX6UL-JQQCg" type="Class_NestedClassifierCompartment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_4JN0XlbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_4JN0X1baEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_4JN0YFbaEemwX6UL-JQQCg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JN0YVbaEemwX6UL-JQQCg"/>
-    </children>
-    <element xmi:type="uml:Class" href="TicheteConcursCiocolata.uml#_4JLYEFbaEemwX6UL-JQQCg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JNNQVbaEemwX6UL-JQQCg" x="760" y="100"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_4aUycFbaEemwX6UL-JQQCg" type="Class_Shape">
-    <children xmi:type="notation:DecorationNode" xmi:id="_4aVZgFbaEemwX6UL-JQQCg" type="Class_NameLabel"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_4aVZgVbaEemwX6UL-JQQCg" type="Class_FloatingNameLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_4aVZglbaEemwX6UL-JQQCg" y="15"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_4aVZg1baEemwX6UL-JQQCg" type="Class_AttributeCompartment">
-      <children xmi:type="notation:Shape" xmi:id="_2UD0EFbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_2T9tcFbbEemwX6UL-JQQCg"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_2UD0EVbbEemwX6UL-JQQCg"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4JN0WFbaEemwX6UL-JQQCg" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_KPdEIFbfEemwX6UL-JQQCg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_KPTTIFbfEemwX6UL-JQQCg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_KPdEIVbfEemwX6UL-JQQCg"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4JN0WVbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_4JN0WlbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_4JN0W1baEemwX6UL-JQQCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JN0XFbaEemwX6UL-JQQCg"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_2oB48FbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_2n6kMFbbEemwX6UL-JQQCg"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_2oB48VbbEemwX6UL-JQQCg"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4JN0XVbaEemwX6UL-JQQCg" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4JN0XlbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_4JN0X1baEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_4JN0YFbaEemwX6UL-JQQCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JN0YVbaEemwX6UL-JQQCg"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_3SxfEFbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_3SqxYFbbEemwX6UL-JQQCg"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3SxfEVbbEemwX6UL-JQQCg"/>
+      <element xmi:type="uml:Class" href="TicheteConcursCiocolata.uml#_4JLYEFbaEemwX6UL-JQQCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JNNQVbaEemwX6UL-JQQCg" x="760" y="100"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_4aUycFbaEemwX6UL-JQQCg" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_4aVZgFbaEemwX6UL-JQQCg" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_4aVZgVbaEemwX6UL-JQQCg" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4aVZglbaEemwX6UL-JQQCg" y="15"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_4aVZhFbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_4aVZhVbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_4aVZhlbaEemwX6UL-JQQCg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4aVZh1baEemwX6UL-JQQCg"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_4aVZiFbaEemwX6UL-JQQCg" type="Class_OperationCompartment">
-      <children xmi:type="notation:Shape" xmi:id="_GbqpcFbfEemwX6UL-JQQCg" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_GbiGkFbfEemwX6UL-JQQCg"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_GbqpcVbfEemwX6UL-JQQCg"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4aVZg1baEemwX6UL-JQQCg" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_2UD0EFbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_2T9tcFbbEemwX6UL-JQQCg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2UD0EVbbEemwX6UL-JQQCg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2oB48FbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_2n6kMFbbEemwX6UL-JQQCg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2oB48VbbEemwX6UL-JQQCg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_3SxfEFbbEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_3SqxYFbbEemwX6UL-JQQCg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_3SxfEVbbEemwX6UL-JQQCg"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4aVZhFbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_4aVZhVbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_4aVZhlbaEemwX6UL-JQQCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4aVZh1baEemwX6UL-JQQCg"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_4aVZiVbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_4aVZilbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_4aVZi1baEemwX6UL-JQQCg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4aVZjFbaEemwX6UL-JQQCg"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_4aVZjVbaEemwX6UL-JQQCg" type="Class_NestedClassifierCompartment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_4aVZjlbaEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_4aVZj1baEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_4aVZkFbaEemwX6UL-JQQCg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4aVZkVbaEemwX6UL-JQQCg"/>
-    </children>
-    <element xmi:type="uml:Class" href="TicheteConcursCiocolata.uml#_4aTkUFbaEemwX6UL-JQQCg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4aUycVbaEemwX6UL-JQQCg" x="120" y="340"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_b6XcIFbeEemwX6UL-JQQCg" type="Class_Shape">
-    <children xmi:type="notation:DecorationNode" xmi:id="_b6XcIlbeEemwX6UL-JQQCg" type="Class_NameLabel"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_b6XcI1beEemwX6UL-JQQCg" type="Class_FloatingNameLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_b6XcJFbeEemwX6UL-JQQCg" y="15"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_b6XcJVbeEemwX6UL-JQQCg" type="Class_AttributeCompartment">
-      <children xmi:type="notation:Shape" xmi:id="_fcdp4FbeEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_fcRcoFbeEemwX6UL-JQQCg"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_fcdp4VbeEemwX6UL-JQQCg"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4aVZiFbaEemwX6UL-JQQCg" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_GbqpcFbfEemwX6UL-JQQCg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_GbiGkFbfEemwX6UL-JQQCg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_GbqpcVbfEemwX6UL-JQQCg"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4aVZiVbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_4aVZilbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_4aVZi1baEemwX6UL-JQQCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4aVZjFbaEemwX6UL-JQQCg"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_b6XcJlbeEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_b6XcJ1beEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_b6XcKFbeEemwX6UL-JQQCg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b6XcKVbeEemwX6UL-JQQCg"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4aVZjVbaEemwX6UL-JQQCg" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4aVZjlbaEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_4aVZj1baEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_4aVZkFbaEemwX6UL-JQQCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4aVZkVbaEemwX6UL-JQQCg"/>
+      </children>
+      <element xmi:type="uml:Class" href="TicheteConcursCiocolata.uml#_4aTkUFbaEemwX6UL-JQQCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4aUycVbaEemwX6UL-JQQCg" x="120" y="340"/>
     </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_b6XcKlbeEemwX6UL-JQQCg" type="Class_OperationCompartment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_b6XcK1beEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_b6XcLFbeEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_b6XcLVbeEemwX6UL-JQQCg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b6XcLlbeEemwX6UL-JQQCg"/>
+    <children xmi:type="notation:Shape" xmi:id="_b6XcIFbeEemwX6UL-JQQCg" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_b6XcIlbeEemwX6UL-JQQCg" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_b6XcI1beEemwX6UL-JQQCg" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_b6XcJFbeEemwX6UL-JQQCg" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_b6XcJVbeEemwX6UL-JQQCg" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_fcdp4FbeEemwX6UL-JQQCg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_fcRcoFbeEemwX6UL-JQQCg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_fcdp4VbeEemwX6UL-JQQCg"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_b6XcJlbeEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_b6XcJ1beEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_b6XcKFbeEemwX6UL-JQQCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b6XcKVbeEemwX6UL-JQQCg"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_b6XcKlbeEemwX6UL-JQQCg" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_b6XcK1beEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_b6XcLFbeEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_b6XcLVbeEemwX6UL-JQQCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b6XcLlbeEemwX6UL-JQQCg"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_b6XcL1beEemwX6UL-JQQCg" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_b6XcMFbeEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_b6XcMVbeEemwX6UL-JQQCg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_b6XcMlbeEemwX6UL-JQQCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b6XcM1beEemwX6UL-JQQCg"/>
+      </children>
+      <element xmi:type="uml:Class" href="TicheteConcursCiocolata.uml#_b6WOAFbeEemwX6UL-JQQCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b6XcIVbeEemwX6UL-JQQCg" x="140" y="120" width="181" height="121"/>
     </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_b6XcL1beEemwX6UL-JQQCg" type="Class_NestedClassifierCompartment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_b6XcMFbeEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_b6XcMVbeEemwX6UL-JQQCg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_b6XcMlbeEemwX6UL-JQQCg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b6XcM1beEemwX6UL-JQQCg"/>
+    <children xmi:type="notation:Shape" xmi:id="_24m10VqwEem2CfQ3IBuTKw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_24m101qwEem2CfQ3IBuTKw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_24m11FqwEem2CfQ3IBuTKw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_24m11VqwEem2CfQ3IBuTKw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_24m11lqwEem2CfQ3IBuTKw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_IsKXAFqxEem2CfQ3IBuTKw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="TicheteConcursCiocolata.uml#_IsAmAFqxEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_IsKXAVqxEem2CfQ3IBuTKw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_24m111qwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_24m12FqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_24m12VqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_24m12lqwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_24m121qwEem2CfQ3IBuTKw" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_24m13FqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_24m13VqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_24m13lqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_24m131qwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_24m14FqwEem2CfQ3IBuTKw" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_24m14VqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_24m14lqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_24m141qwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_24m15FqwEem2CfQ3IBuTKw"/>
+      </children>
+      <element xmi:type="uml:Class" href="TicheteConcursCiocolata.uml#_24m10FqwEem2CfQ3IBuTKw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_24m10lqwEem2CfQ3IBuTKw" x="180" y="-40"/>
     </children>
-    <element xmi:type="uml:Class" href="TicheteConcursCiocolata.uml#_b6WOAFbeEemwX6UL-JQQCg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b6XcIVbeEemwX6UL-JQQCg" x="140" y="120" width="181" height="121"/>
-  </children>
-  <styles xmi:type="notation:StringValueStyle" xmi:id="_M8EA4VbKEemwX6UL-JQQCg" name="diagram_compatibility_version" stringValue="1.3.0"/>
-  <styles xmi:type="notation:DiagramStyle" xmi:id="_M8EA4lbKEemwX6UL-JQQCg"/>
-  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_M8EA41bKEemwX6UL-JQQCg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
-    <owner xmi:type="uml:Model" href="TicheteConcursCiocolata.uml#_GN2ccFbKEemwX6UL-JQQCg"/>
-  </styles>
-  <element xmi:type="uml:Model" href="TicheteConcursCiocolata.uml#_GN2ccFbKEemwX6UL-JQQCg"/>
-  <edges xmi:type="notation:Connector" xmi:id="_65NvYFbdEemwX6UL-JQQCg" type="Association_Edge" source="_1AYbIFbaEemwX6UL-JQQCg" target="_4JNNQFbaEemwX6UL-JQQCg">
-    <children xmi:type="notation:DecorationNode" xmi:id="_65OWcFbdEemwX6UL-JQQCg" type="Association_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_K1dwsFbeEemwX6UL-JQQCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_65OWcVbdEemwX6UL-JQQCg" x="-1" y="-18"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_M8EA4VbKEemwX6UL-JQQCg" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_M8EA4lbKEemwX6UL-JQQCg"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_M8EA41bKEemwX6UL-JQQCg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="TicheteConcursCiocolata.uml#_GN2ccFbKEemwX6UL-JQQCg"/>
+    </styles>
+    <element xmi:type="uml:Model" href="TicheteConcursCiocolata.uml#_GN2ccFbKEemwX6UL-JQQCg"/>
+    <edges xmi:type="notation:Connector" xmi:id="_65NvYFbdEemwX6UL-JQQCg" type="Association_Edge" source="_1AYbIFbaEemwX6UL-JQQCg" target="_4JNNQFbaEemwX6UL-JQQCg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_65OWcFbdEemwX6UL-JQQCg" type="Association_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_K1dwsFbeEemwX6UL-JQQCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_65OWcVbdEemwX6UL-JQQCg" x="-1" y="-18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_65OWclbdEemwX6UL-JQQCg" type="Association_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_K1j3UFbeEemwX6UL-JQQCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_65OWc1bdEemwX6UL-JQQCg" x="1" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_65OWdFbdEemwX6UL-JQQCg" type="Association_TargetRoleLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_K1qlAFbeEemwX6UL-JQQCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_65OWdVbdEemwX6UL-JQQCg" x="34" y="-18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_65OWdlbdEemwX6UL-JQQCg" type="Association_SourceRoleLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_K1wroFbeEemwX6UL-JQQCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_65OWd1bdEemwX6UL-JQQCg" x="-34" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_65OWeFbdEemwX6UL-JQQCg" type="Association_SourceMultiplicityLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_K13ZUFbeEemwX6UL-JQQCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_65OWeVbdEemwX6UL-JQQCg" x="36" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_65OWelbdEemwX6UL-JQQCg" type="Association_TargetMultiplicityLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_K19f8FbeEemwX6UL-JQQCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_65OWe1bdEemwX6UL-JQQCg" x="-36" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_65NvYVbdEemwX6UL-JQQCg"/>
+      <element xmi:type="uml:Association" href="TicheteConcursCiocolata.uml#_65BiIFbdEemwX6UL-JQQCg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_65NvYlbdEemwX6UL-JQQCg" points="[539, 180, -643984, -643984]$[760, 180, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_650zYFbdEemwX6UL-JQQCg" id="(1.0,0.5769230769230769)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_650zYVbdEemwX6UL-JQQCg" id="(0.0,0.4878048780487805)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_r2zDoFbeEemwX6UL-JQQCg" type="Association_Edge" source="_b6XcIFbeEemwX6UL-JQQCg" target="_1AYbIFbaEemwX6UL-JQQCg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_r2zDo1beEemwX6UL-JQQCg" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r2zDpFbeEemwX6UL-JQQCg" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_r2zDpVbeEemwX6UL-JQQCg" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r2zDplbeEemwX6UL-JQQCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_r2zDp1beEemwX6UL-JQQCg" type="Association_TargetRoleLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r2zDqFbeEemwX6UL-JQQCg" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_r2zDqVbeEemwX6UL-JQQCg" type="Association_SourceRoleLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r2zDqlbeEemwX6UL-JQQCg" x="-19" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_r2zDq1beEemwX6UL-JQQCg" type="Association_SourceMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r2zDrFbeEemwX6UL-JQQCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_r2zDrVbeEemwX6UL-JQQCg" type="Association_TargetMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r2zDrlbeEemwX6UL-JQQCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_r2zDoVbeEemwX6UL-JQQCg"/>
+      <element xmi:type="uml:Association" href="TicheteConcursCiocolata.uml#_r2kaIFbeEemwX6UL-JQQCg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r2zDolbeEemwX6UL-JQQCg" points="[321, 180, -643984, -643984]$[460, 180, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r3K3EFbeEemwX6UL-JQQCg" id="(1.0,0.49586776859504134)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r3K3EVbeEemwX6UL-JQQCg" id="(0.0,0.5769230769230769)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_scDs0FbeEemwX6UL-JQQCg" type="Association_Edge" source="_b6XcIFbeEemwX6UL-JQQCg" target="_4aUycFbaEemwX6UL-JQQCg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_scDs01beEemwX6UL-JQQCg" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_scDs1FbeEemwX6UL-JQQCg" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_scDs1VbeEemwX6UL-JQQCg" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_scDs1lbeEemwX6UL-JQQCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_scDs11beEemwX6UL-JQQCg" type="Association_TargetRoleLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_scDs2FbeEemwX6UL-JQQCg" x="14" y="-54"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_scDs2VbeEemwX6UL-JQQCg" type="Association_SourceRoleLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_scDs2lbeEemwX6UL-JQQCg" x="-15" y="73"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_scET4FbeEemwX6UL-JQQCg" type="Association_SourceMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_scET4VbeEemwX6UL-JQQCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_scET4lbeEemwX6UL-JQQCg" type="Association_TargetMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_scET41beEemwX6UL-JQQCg" x="5" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_scDs0VbeEemwX6UL-JQQCg"/>
+      <element xmi:type="uml:Association" href="TicheteConcursCiocolata.uml#_sb4tsFbeEemwX6UL-JQQCg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_scDs0lbeEemwX6UL-JQQCg" points="[240, 241, -643984, -643984]$[240, 340, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sckqMFbeEemwX6UL-JQQCg" id="(0.5524861878453039,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sckqMVbeEemwX6UL-JQQCg" id="(0.5633802816901409,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_6D7iUFqwEem2CfQ3IBuTKw" type="Association_Edge" source="_24m10VqwEem2CfQ3IBuTKw" target="_b6XcIFbeEemwX6UL-JQQCg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6D7iU1qwEem2CfQ3IBuTKw" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6D7iVFqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6D7iVVqwEem2CfQ3IBuTKw" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6D7iVlqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6D7iV1qwEem2CfQ3IBuTKw" type="Association_TargetRoleLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6D7iWFqwEem2CfQ3IBuTKw" x="1" y="-74"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6D7iWVqwEem2CfQ3IBuTKw" type="Association_SourceRoleLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6D7iWlqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6D7iW1qwEem2CfQ3IBuTKw" type="Association_SourceMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6D7iXFqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6D7iXVqwEem2CfQ3IBuTKw" type="Association_TargetMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6D7iXlqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_6D7iUVqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:Association" href="TicheteConcursCiocolata.uml#_6DxxUFqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6D7iUlqwEem2CfQ3IBuTKw" points="[240, 60, -643984, -643984]$[240, 120, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6EYOQFqwEem2CfQ3IBuTKw" id="(0.5309734513274337,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6EYOQVqwEem2CfQ3IBuTKw" id="(0.5524861878453039,0.0)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_OJvPcFqwEem2CfQ3IBuTKw" type="PapyrusUMLSequenceDiagram" name="adaugareConcursSequence" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_OJvPcVqwEem2CfQ3IBuTKw" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_OJvPclqwEem2CfQ3IBuTKw" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_OJvPc1qwEem2CfQ3IBuTKw" type="Interaction_SubfragmentCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_Sfl_8lqxEem2CfQ3IBuTKw" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Sfl_9FqxEem2CfQ3IBuTKw" type="Lifeline_NameLabel"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_SgVm0FqxEem2CfQ3IBuTKw" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_SgVm0VqxEem2CfQ3IBuTKw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SgVm0lqxEem2CfQ3IBuTKw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_OPo7wlqzEem2CfQ3IBuTKw" type="BehaviorExecutionSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_OPo7xFqzEem2CfQ3IBuTKw" type="BehaviorExecutionSpecification_Behavior">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_OPo7xVqzEem2CfQ3IBuTKw" x="18" y="18"/>
+            </children>
+            <element xmi:type="uml:BehaviorExecutionSpecification" href="TicheteConcursCiocolata.uml#_OPo7wFqzEem2CfQ3IBuTKw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPo7w1qzEem2CfQ3IBuTKw" x="66" y="401" width="20" height="100"/>
+          </children>
+          <element xmi:type="uml:Lifeline" href="TicheteConcursCiocolata.uml#_Sfl_8FqxEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sfl_81qxEem2CfQ3IBuTKw" x="14" y="10" width="152"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_jqC5wlqxEem2CfQ3IBuTKw" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_jqC5xFqxEem2CfQ3IBuTKw" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="TicheteConcursCiocolata.uml#_jqC5wFqxEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jqC5w1qxEem2CfQ3IBuTKw" x="214" y="10" width="181"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qPY2ElqxEem2CfQ3IBuTKw" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qPY2FFqxEem2CfQ3IBuTKw" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="TicheteConcursCiocolata.uml#_qPY2EFqxEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qPY2E1qxEem2CfQ3IBuTKw" x="454" y="10" width="121"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_t_N90lqxEem2CfQ3IBuTKw" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_t_N91FqxEem2CfQ3IBuTKw" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="TicheteConcursCiocolata.uml#_t_N90FqxEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t_N901qxEem2CfQ3IBuTKw" x="614" y="10" width="141"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OJvPdFqwEem2CfQ3IBuTKw"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="TicheteConcursCiocolata.uml#_M5B1gFqwEem2CfQ3IBuTKw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OJvPdVqwEem2CfQ3IBuTKw"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_65OWclbdEemwX6UL-JQQCg" type="Association_NameLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_K1j3UFbeEemwX6UL-JQQCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_65OWc1bdEemwX6UL-JQQCg" x="1" y="19"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_OJvPdlqwEem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_OJvPd1qwEem2CfQ3IBuTKw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_OJvPeFqwEem2CfQ3IBuTKw" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+      <owner xmi:type="uml:Model" href="TicheteConcursCiocolata.uml#_GN2ccFbKEemwX6UL-JQQCg"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="TicheteConcursCiocolata.uml#_M5B1gFqwEem2CfQ3IBuTKw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_5iLqsFqxEem2CfQ3IBuTKw" type="Message_AsynchEdge" source="_Sfl_8lqxEem2CfQ3IBuTKw" target="_jqC5wlqxEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5iLqs1qxEem2CfQ3IBuTKw" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5iLqtFqxEem2CfQ3IBuTKw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5iLqtVqxEem2CfQ3IBuTKw" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5iLqtlqxEem2CfQ3IBuTKw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_5iLqsVqxEem2CfQ3IBuTKw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_5iLqt1qxEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:Message" href="TicheteConcursCiocolata.uml#_5iB5sFqxEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5iLqslqxEem2CfQ3IBuTKw" points="[0, 0, -214, 0]$[214, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5invkFqxEem2CfQ3IBuTKw" id="(0.5,0.11571428571428571)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5invkVqxEem2CfQ3IBuTKw" id="(0.5,0.11571428571428571)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_8SLtIVqxEem2CfQ3IBuTKw" type="Message_ReplyEdge" source="_jqC5wlqxEem2CfQ3IBuTKw" target="_Sfl_8lqxEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8SLtJFqxEem2CfQ3IBuTKw" type="Message_ReplyNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8SLtJVqxEem2CfQ3IBuTKw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8SLtJlqxEem2CfQ3IBuTKw" type="Message_ReplyStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8SLtJ1qxEem2CfQ3IBuTKw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_8SLtIlqxEem2CfQ3IBuTKw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_8SLtKFqxEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:Message" href="TicheteConcursCiocolata.uml#_8SCjMFqxEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8SLtI1qxEem2CfQ3IBuTKw" points="[0, 0, 214, 0]$[-214, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8SVeIFqxEem2CfQ3IBuTKw" id="(0.5,0.20142857142857143)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8SVeIVqxEem2CfQ3IBuTKw" id="(0.5,0.20142857142857143)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_i5ETUFqyEem2CfQ3IBuTKw" type="Message_AsynchEdge" source="_jqC5wlqxEem2CfQ3IBuTKw" target="_qPY2ElqxEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_i5ETU1qyEem2CfQ3IBuTKw" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_i5ETVFqyEem2CfQ3IBuTKw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_i5ETVVqyEem2CfQ3IBuTKw" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_i5ETVlqyEem2CfQ3IBuTKw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_i5ETUVqyEem2CfQ3IBuTKw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_i5ETV1qyEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:Message" href="TicheteConcursCiocolata.uml#_i46iUFqyEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i5ETUlqyEem2CfQ3IBuTKw" points="[0, 0, -210, 0]$[210, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i5NdQFqyEem2CfQ3IBuTKw" id="(0.5,0.20142857142857143)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i5NdQVqyEem2CfQ3IBuTKw" id="(0.5,0.20142857142857143)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_zbhZAFqyEem2CfQ3IBuTKw" type="Message_AsynchEdge" source="_jqC5wlqxEem2CfQ3IBuTKw" target="_t_N90lqxEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zbhZA1qyEem2CfQ3IBuTKw" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zbhZBFqyEem2CfQ3IBuTKw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_zbhZBVqyEem2CfQ3IBuTKw" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zbhZBlqyEem2CfQ3IBuTKw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_zbhZAVqyEem2CfQ3IBuTKw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_zbhZB1qyEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:Message" href="TicheteConcursCiocolata.uml#_zbXoAFqyEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zbhZAlqyEem2CfQ3IBuTKw" points="[0, 0, -380, 0]$[380, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zb0T8FqyEem2CfQ3IBuTKw" id="(0.5,0.3442857142857143)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zb0T8VqyEem2CfQ3IBuTKw" id="(0.5,0.3442857142857143)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_HAo-c1qzEem2CfQ3IBuTKw" type="Message_ReplyEdge" source="_qPY2ElqxEem2CfQ3IBuTKw" target="_jqC5wlqxEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HAo-dlqzEem2CfQ3IBuTKw" type="Message_ReplyNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HAo-d1qzEem2CfQ3IBuTKw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HAo-eFqzEem2CfQ3IBuTKw" type="Message_ReplyStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HAo-eVqzEem2CfQ3IBuTKw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_HAo-dFqzEem2CfQ3IBuTKw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_HAo-elqzEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:Message" href="TicheteConcursCiocolata.uml#_HAo-cFqzEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HAo-dVqzEem2CfQ3IBuTKw" points="[0, 0, 210, 0]$[-210, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HA75YFqzEem2CfQ3IBuTKw" id="(0.5,0.25857142857142856)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HA75YVqzEem2CfQ3IBuTKw" id="(0.5,0.25857142857142856)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_J4GTw1qzEem2CfQ3IBuTKw" type="Message_ReplyEdge" source="_t_N90lqxEem2CfQ3IBuTKw" target="_jqC5wlqxEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_J4GTxlqzEem2CfQ3IBuTKw" type="Message_ReplyNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_J4GTx1qzEem2CfQ3IBuTKw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_J4GTyFqzEem2CfQ3IBuTKw" type="Message_ReplyStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_J4GTyVqzEem2CfQ3IBuTKw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_J4GTxFqzEem2CfQ3IBuTKw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_J4GTylqzEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:Message" href="TicheteConcursCiocolata.uml#_J4GTwFqzEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J4GTxVqzEem2CfQ3IBuTKw" points="[0, 0, 380, 0]$[-380, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J4QEwFqzEem2CfQ3IBuTKw" id="(0.5,0.43)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J4QEwVqzEem2CfQ3IBuTKw" id="(0.5,0.43)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_OPMP01qzEem2CfQ3IBuTKw" type="Message_SynchEdge" source="_jqC5wlqxEem2CfQ3IBuTKw" target="_Sfl_8lqxEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_OPMP1lqzEem2CfQ3IBuTKw" type="Message_SynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OPMP11qzEem2CfQ3IBuTKw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_OPMP2FqzEem2CfQ3IBuTKw" type="Message_SynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OPMP2VqzEem2CfQ3IBuTKw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_OPMP1FqzEem2CfQ3IBuTKw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_OPMP2lqzEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:Message" href="TicheteConcursCiocolata.uml#_OPMP0FqzEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OPMP1VqzEem2CfQ3IBuTKw" points="[0, 0, 214, 0]$[-214, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OPfKwFqzEem2CfQ3IBuTKw" id="(0.5,0.5728571428571428)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OPfKwVqzEem2CfQ3IBuTKw" id="(0.5,0.5728571428571428)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_OPysw1qzEem2CfQ3IBuTKw" type="Message_ReplyEdge" source="_Sfl_8lqxEem2CfQ3IBuTKw" target="_jqC5wlqxEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_OPysxlqzEem2CfQ3IBuTKw" type="Message_ReplyNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OPysx1qzEem2CfQ3IBuTKw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_OPysyFqzEem2CfQ3IBuTKw" type="Message_ReplyStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OPysyVqzEem2CfQ3IBuTKw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_OPysxFqzEem2CfQ3IBuTKw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_OPysylqzEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:Message" href="TicheteConcursCiocolata.uml#_OPyswFqzEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OPysxVqzEem2CfQ3IBuTKw" points="[0, 0, -214, 0]$[214, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OPysy1qzEem2CfQ3IBuTKw" id="(0.5,0.7157142857142857)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OPyszFqzEem2CfQ3IBuTKw" id="(0.5,0.7157142857142857)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Y8b9AFqwEem2CfQ3IBuTKw" type="PapyrusUMLActivityDiagram" name="adaugareConcurs" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_Y8b9AVqwEem2CfQ3IBuTKw" type="Activity_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Y8b9AlqwEem2CfQ3IBuTKw" type="Activity_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Y8b9BFqwEem2CfQ3IBuTKw" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Y8b9BVqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Y8b9BlqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y8b9B1qwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Y8b9CFqwEem2CfQ3IBuTKw" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Y8b9CVqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Y8b9ClqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y8b9C1qwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Y8b9DFqwEem2CfQ3IBuTKw" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Y8b9DVqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Y8b9DlqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y8b9D1qwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Y8b9EFqwEem2CfQ3IBuTKw" type="Activity_ActivityNodeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_flvPcFq0Eem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_flvPc1q0Eem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_flvPdFq0Eem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_flvPdVq0Eem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_flvPdlq0Eem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_1BZfwVq0Eem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_1BZfxFq0Eem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_1BZfxVq0Eem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_1BZfxlq0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_1BZfwlq0Eem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_1BZfwFq0Eem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1BZfx1q0Eem2CfQ3IBuTKw" x="34" y="290"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_flvPd1q0Eem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_flvPcVq0Eem2CfQ3IBuTKw"/>
+          <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_flmFgVq0Eem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_flvPclq0Eem2CfQ3IBuTKw" x="555" y="44" width="261" height="641"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_flvPeFq0Eem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_flvPe1q0Eem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_flvPfFq0Eem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_flvPfVq0Eem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_flvPflq0Eem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_p31KUVq0Eem2CfQ3IBuTKw" type="InitialNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_p31KVFq0Eem2CfQ3IBuTKw" type="InitialNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_p31KVVq0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_p31KVlq0Eem2CfQ3IBuTKw" type="InitialNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_p31KV1q0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_p31KUlq0Eem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:InitialNode" href="TicheteConcursCiocolata.uml#_p31KUFq0Eem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p31KU1q0Eem2CfQ3IBuTKw" x="78" y="10"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_rDRCsVq0Eem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_rDRCtFq0Eem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_rDRCtVq0Eem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_rDRCtlq0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_rDRCslq0Eem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_rDRCsFq0Eem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rDRCt1q0Eem2CfQ3IBuTKw" x="58" y="90"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_swCtkVq0Eem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_swCtlFq0Eem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_swCtlVq0Eem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_swCtllq0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_swCtklq0Eem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_swCtkFq0Eem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_swCtl1q0Eem2CfQ3IBuTKw" x="18" y="410"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uLQuYVq0Eem2CfQ3IBuTKw" type="ActivityFinalNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uLQuZFq0Eem2CfQ3IBuTKw" type="ActivityFinalNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_uLQuZVq0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_uLQuZlq0Eem2CfQ3IBuTKw" type="ActivityFinalNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_uLQuZ1q0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_uLQuYlq0Eem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:ActivityFinalNode" href="TicheteConcursCiocolata.uml#_uLQuYFq0Eem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLQuY1q0Eem2CfQ3IBuTKw" x="98" y="550"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_yIQvcFq0Eem2CfQ3IBuTKw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_yIQvc1q0Eem2CfQ3IBuTKw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_yIQvdFq0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_yIQvdVq0Eem2CfQ3IBuTKw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_yIQvdlq0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_yIQvd1q0Eem2CfQ3IBuTKw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_yIQveFq0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_yIQvcVq0Eem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:DecisionNode" href="TicheteConcursCiocolata.uml#_yIG-cFq0Eem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yIQvclq0Eem2CfQ3IBuTKw" x="78" y="50"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_flvPf1q0Eem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_flvPeVq0Eem2CfQ3IBuTKw"/>
+          <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_flmFgFq0Eem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_flvPelq0Eem2CfQ3IBuTKw" x="31" y="44" width="265" height="641"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_flvPgFq0Eem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_flvPg1q0Eem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_flvPhFq0Eem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_flvPhVq0Eem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_flvPhlq0Eem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_r6GkEVq0Eem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_r6GkFFq0Eem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_r6GkFVq0Eem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_r6GkFlq0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_r6GkElq0Eem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_r6GkEFq0Eem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r6GkF1q0Eem2CfQ3IBuTKw" x="14" y="130"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_zkfc4Fq0Eem2CfQ3IBuTKw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_zkfc41q0Eem2CfQ3IBuTKw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_zkfc5Fq0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_zkfc5Vq0Eem2CfQ3IBuTKw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_zkfc5lq0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_zkfc51q0Eem2CfQ3IBuTKw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_zkfc6Fq0Eem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zkfc4Vq0Eem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:DecisionNode" href="TicheteConcursCiocolata.uml#_zkVr4Fq0Eem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zkfc4lq0Eem2CfQ3IBuTKw" x="94" y="190"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_flvPh1q0Eem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_flvPgVq0Eem2CfQ3IBuTKw"/>
+          <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_flmFglq0Eem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_flvPglq0Eem2CfQ3IBuTKw" x="295" y="44" width="261" height="641"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y8b9EVqwEem2CfQ3IBuTKw"/>
+      </children>
+      <element xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_YZg2IFqwEem2CfQ3IBuTKw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y8b9ElqwEem2CfQ3IBuTKw"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_65OWdFbdEemwX6UL-JQQCg" type="Association_TargetRoleLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_K1qlAFbeEemwX6UL-JQQCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_65OWdVbdEemwX6UL-JQQCg" x="34" y="-18"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_Y8b9E1qwEem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Y8b9FFqwEem2CfQ3IBuTKw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Y8b9FVqwEem2CfQ3IBuTKw" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
+      <owner xmi:type="uml:Model" href="TicheteConcursCiocolata.uml#_GN2ccFbKEemwX6UL-JQQCg"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_YZg2IFqwEem2CfQ3IBuTKw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_50pzYVq0Eem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_p31KUVq0Eem2CfQ3IBuTKw" target="_yIQvcFq0Eem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_50pzZFq0Eem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HakxUFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_50pzZVq0Eem2CfQ3IBuTKw" x="-5" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_50pzZlq0Eem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HauiUFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_50pzZ1q0Eem2CfQ3IBuTKw" x="-1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_50pzaFq0Eem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Ha4TUFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_50pzaVq0Eem2CfQ3IBuTKw" x="4" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_50pzalq0Eem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HbBdQFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_50pza1q0Eem2CfQ3IBuTKw" x="1" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_50pzYlq0Eem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_50pzYFq0Eem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_50pzY1q0Eem2CfQ3IBuTKw" points="[120, 128, -643984, -643984]$[140, 175, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_508uUFq0Eem2CfQ3IBuTKw" id="(0.5,0.9)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_508uUVq0Eem2CfQ3IBuTKw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_6tAXsFq0Eem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_yIQvcFq0Eem2CfQ3IBuTKw" target="_rDRCsVq0Eem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6tAXs1q0Eem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DZrHsVrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6tAXtFq0Eem2CfQ3IBuTKw" x="-5" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6tAXtVq0Eem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DZ0RoFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6tAXtlq0Eem2CfQ3IBuTKw" x="-1" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6tAXt1q0Eem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DZ-CoFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6tAXuFq0Eem2CfQ3IBuTKw" x="3" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6tAXuVq0Eem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DaHzoFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6tAXulq0Eem2CfQ3IBuTKw" x="1" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_6tAXsVq0Eem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_6s3NwFq0Eem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6tAXslq0Eem2CfQ3IBuTKw" points="[123, 180, -643984, -643984]$[143, 200, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6tKIsFq0Eem2CfQ3IBuTKw" id="(0.16666666666666644,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6tTSoFq0Eem2CfQ3IBuTKw" id="(0.4911242603550296,0.475)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_7gRnsFq0Eem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_rDRCsVq0Eem2CfQ3IBuTKw" target="_r6GkEVq0Eem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7gRns1q0Eem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DZEqwFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7gRntFq0Eem2CfQ3IBuTKw" x="-22" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7gRntVq0Eem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DZObwFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7gRntlq0Eem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7gRnt1q0Eem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DZYMwFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7gRnuFq0Eem2CfQ3IBuTKw" x="22" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7gRnuVq0Eem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DZrHsFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7gRnulq0Eem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_7gRnsVq0Eem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_7gH2sFq0Eem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7gRnslq0Eem2CfQ3IBuTKw" points="[269, 220, -643984, -643984]$[410, 220, -643984, -643984]$[410, 220, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7gkioFq0Eem2CfQ3IBuTKw" id="(0.8284023668639053,0.6)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7gkioVq0Eem2CfQ3IBuTKw" id="(0.5294117647058824,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_8oudgFq0Eem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_r6GkEVq0Eem2CfQ3IBuTKw" target="_zkfc4Fq0Eem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8oudg1q0Eem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Do3aQFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8oudhFq0Eem2CfQ3IBuTKw" x="-9" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8oudhVq0Eem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Do3aQVrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8oudhlq0Eem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8oudh1q0Eem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DpKVMFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8oudiFq0Eem2CfQ3IBuTKw" x="9" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8oudiVq0Eem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DpUGMFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8oudilq0Eem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_8oudgVq0Eem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_8olTkFq0Eem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8oudglq0Eem2CfQ3IBuTKw" points="[410, 240, -643984, -643984]$[410, 270, -643984, -643984]$[410, 300, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8pBYcFq0Eem2CfQ3IBuTKw" id="(0.5294117647058824,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8pBYcVq0Eem2CfQ3IBuTKw" id="(0.35,0.43333333333333335)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_92q3UVq0Eem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_zkfc4Fq0Eem2CfQ3IBuTKw" target="_yIQvcFq0Eem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_92q3VFq0Eem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DLErAFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_92q3VVq0Eem2CfQ3IBuTKw" x="-19" y="-43"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_92q3Vlq0Eem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DLErAVrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_92q3V1q0Eem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_92q3WFq0Eem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DLOcAFrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_92q3WVq0Eem2CfQ3IBuTKw" x="215" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_92q3Wlq0Eem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DLXl8FrHEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_92q3W1q0Eem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_92q3Ulq0Eem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_92q3UFq0Eem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_92q3U1q0Eem2CfQ3IBuTKw" points="[403, 320, -643984, -643984]$[60, 320, -643984, -643984]$[60, 180, -643984, -643984]$[123, 180, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_929yQFq0Eem2CfQ3IBuTKw" id="(0.15,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_929yQVq0Eem2CfQ3IBuTKw" id="(0.15,0.6666666666666666)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_C0HowFq1Eem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_zkfc4Fq0Eem2CfQ3IBuTKw" target="_1BZfwVq0Eem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_C0How1q1Eem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_rFrYUFrGEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_C0HoxFq1Eem2CfQ3IBuTKw" x="-25" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_C0HoxVq1Eem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_rF1JUFrGEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_C0Hoxlq1Eem2CfQ3IBuTKw" x="-1" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_C0Hox1q1Eem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_rF-TQFrGEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_C0HoyFq1Eem2CfQ3IBuTKw" x="122" y="-5"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_C0HoyVq1Eem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_rGIEQFrGEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_C0Hoylq1Eem2CfQ3IBuTKw" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_C0HowVq1Eem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_Cz93wFq1Eem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C0Howlq1Eem2CfQ3IBuTKw" points="[420, 315, -643984, -643984]$[520, 315, -643984, -643984]$[520, 419, -643984, -643984]$[600, 419, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C0ajsFq1Eem2CfQ3IBuTKw" id="(1.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C0ajsVq1Eem2CfQ3IBuTKw" id="(0.056818181818181816,0.475)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_ImkIgFq1Eem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_1BZfwVq0Eem2CfQ3IBuTKw" target="_swCtkVq0Eem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ImkIg1q1Eem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_pvqnoFrGEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ImkIhFq1Eem2CfQ3IBuTKw" x="-82" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ImkIhVq1Eem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_pv0YoFrGEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ImkIhlq1Eem2CfQ3IBuTKw" x="-1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ImkIh1q1Eem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_pv9ikFrGEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ImkIiFq1Eem2CfQ3IBuTKw" x="80" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ImkIiVq1Eem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_pwHTkFrGEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ImkIilq1Eem2CfQ3IBuTKw" x="1" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_ImkIgVq1Eem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_Ima-kFq1Eem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ImkIglq1Eem2CfQ3IBuTKw" points="[693, 440, -643984, -643984]$[693, 480, -643984, -643984]$[151, 480, -643984, -643984]$[151, 520, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Im3DcFq1Eem2CfQ3IBuTKw" id="(0.5284090909090909,0.675)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Im3DcVq1Eem2CfQ3IBuTKw" id="(0.5352941176470588,0.375)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_JWHWIFq1Eem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_swCtkVq0Eem2CfQ3IBuTKw" target="_uLQuYVq0Eem2CfQ3IBuTKw" routing="Tree">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JWHWI1q1Eem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_pZ6aEFrGEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JWHWJFq1Eem2CfQ3IBuTKw" x="-9" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JWHWJVq1Eem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_paELEFrGEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JWHWJlq1Eem2CfQ3IBuTKw" x="-2" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JWHWJ1q1Eem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_paN8EFrGEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JWHWKFq1Eem2CfQ3IBuTKw" x="9" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JWHWKVq1Eem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_paXGAFrGEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JWHWKlq1Eem2CfQ3IBuTKw" x="1" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_JWHWIVq1Eem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_JV9lIFq1Eem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JWHWIlq1Eem2CfQ3IBuTKw" points="[150, 560, -643984, -643984]$[150, 628, -643984, -643984]$[150, 628, -643984, -643984]$[150, 673, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JWaREFq1Eem2CfQ3IBuTKw" id="(0.5294117647058824,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JWaREVq1Eem2CfQ3IBuTKw" id="(0.55,0.45)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_bK0gIVqwEem2CfQ3IBuTKw" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_bK0gIlqwEem2CfQ3IBuTKw" type="Activity_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0gI1qwEem2CfQ3IBuTKw" type="Activity_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_bK0gJFqwEem2CfQ3IBuTKw" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_bK0gJVqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_bK0gJlqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gJ1qwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_bK0gKFqwEem2CfQ3IBuTKw" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_bK0gKVqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_bK0gKlqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gK1qwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_bK0gLFqwEem2CfQ3IBuTKw" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_bK0gLVqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_bK0gLlqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gL1qwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_bK0gMFqwEem2CfQ3IBuTKw" type="Activity_ActivityNodeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_bK0gMVqwEem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_bK0gMlqwEem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_bK0gM1qwEem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gNFqwEem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_bK0gNVqwEem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_bK0gNlqwEem2CfQ3IBuTKw" type="InitialNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gN1qwEem2CfQ3IBuTKw" type="InitialNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gOFqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gOVqwEem2CfQ3IBuTKw" type="InitialNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gOlqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_bK0gO1qwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:InitialNode" href="TicheteConcursCiocolata.uml#_bKhlPlqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gP1qwEem2CfQ3IBuTKw" x="94" y="10"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_bK0gQFqwEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gQVqwEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gQlqwEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gQ1qwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_bK0gRFqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_bKhlP1qwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gSFqwEem2CfQ3IBuTKw" x="34" y="130" width="181" height="41"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_bK0gSVqwEem2CfQ3IBuTKw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gSlqwEem2CfQ3IBuTKw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gS1qwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gTFqwEem2CfQ3IBuTKw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gTVqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gTlqwEem2CfQ3IBuTKw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gT1qwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_bK0gUFqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:DecisionNode" href="TicheteConcursCiocolata.uml#_bKhlQFqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gVFqwEem2CfQ3IBuTKw" x="94" y="70"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_bK0gVVqwEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gVlqwEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gV1qwEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gWFqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_bK0gWVqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_bKhlRFqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gXVqwEem2CfQ3IBuTKw" x="54" y="290"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_bK0gXlqwEem2CfQ3IBuTKw" type="ActivityFinalNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gX1qwEem2CfQ3IBuTKw" type="ActivityFinalNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gYFqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gYVqwEem2CfQ3IBuTKw" type="ActivityFinalNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gYlqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_bK0gY1qwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:ActivityFinalNode" href="TicheteConcursCiocolata.uml#_bKhlRVqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gZ1qwEem2CfQ3IBuTKw" x="134" y="370"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gaFqwEem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_bK0gaVqwEem2CfQ3IBuTKw"/>
+          <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_bKhlMVqwEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gbVqwEem2CfQ3IBuTKw" x="15" y="104" width="241" height="441"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_bK0gblqwEem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_bK0gb1qwEem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_bK0gcFqwEem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gcVqwEem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_bK0gclqwEem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_bK0gc1qwEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gdFqwEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gdVqwEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gdlqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_bK0gd1qwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_bKhlQVqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0ge1qwEem2CfQ3IBuTKw" x="54" y="130"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_bK0gfFqwEem2CfQ3IBuTKw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gfVqwEem2CfQ3IBuTKw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gflqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0gf1qwEem2CfQ3IBuTKw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0ggFqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0ggVqwEem2CfQ3IBuTKw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gglqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_bK0gg1qwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:DecisionNode" href="TicheteConcursCiocolata.uml#_bKhlQ1qwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gh1qwEem2CfQ3IBuTKw" x="134" y="210"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0giFqwEem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_bK0giVqwEem2CfQ3IBuTKw">
+            <diagramLink xmi:type="notation:Diagram" href="adaugareConcurs.notation#_ZOtNAFqVEem2CfQ3IBuTKw"/>
+          </styles>
+          <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_bKhlMlqwEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gjVqwEem2CfQ3IBuTKw" x="255" y="104" width="281" height="441"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_bK0gjlqwEem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_bK0gj1qwEem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_bK0gkFqwEem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gkVqwEem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_bK0gklqwEem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_bK0gk1qwEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0glFqwEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_bK0glVqwEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gllqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_bK0gl1qwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_bKhlQlqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gm1qwEem2CfQ3IBuTKw" x="74" y="190"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0gnFqwEem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_bK0gnVqwEem2CfQ3IBuTKw"/>
+          <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_bKhlM1qwEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0goVqwEem2CfQ3IBuTKw" x="535" y="104" width="301" height="441"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0golqwEem2CfQ3IBuTKw"/>
+      </children>
+      <element xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_bKhlMFqwEem2CfQ3IBuTKw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0go1qwEem2CfQ3IBuTKw"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_65OWdlbdEemwX6UL-JQQCg" type="Association_SourceRoleLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_K1wroFbeEemwX6UL-JQQCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_65OWd1bdEemwX6UL-JQQCg" x="-34" y="19"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_bK0gpFqwEem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_bK0gpVqwEem2CfQ3IBuTKw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_bK0gplqwEem2CfQ3IBuTKw" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
+      <owner xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_bKhlMFqwEem2CfQ3IBuTKw"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_bKhlMFqwEem2CfQ3IBuTKw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_bK0gp1qwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_bK0gNlqwEem2CfQ3IBuTKw" target="_bK0gSVqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0gqFqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gqVqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0gqlqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gq1qwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0grFqwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0grVqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0grlqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gr1qwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_bK0gsFqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_bKhlNFqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bK0gsVqwEem2CfQ3IBuTKw" points="[120, 192, -643984, -643984]$[130, 240, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0gslqwEem2CfQ3IBuTKw" id="(0.15,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0gs1qwEem2CfQ3IBuTKw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_bK0gtFqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_bK0gSVqwEem2CfQ3IBuTKw" target="_bK0gQFqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0gtVqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0gtlqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gt1qwEem2CfQ3IBuTKw" x="-5" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0guFqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0guVqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gulqwEem2CfQ3IBuTKw" x="1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0gu1qwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0gvFqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gvVqwEem2CfQ3IBuTKw" x="7" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0gvlqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0gv1qwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gwFqwEem2CfQ3IBuTKw" x="-1" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_bK0gwVqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_bKhlNVqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bK0gwlqwEem2CfQ3IBuTKw" points="[121, 178, -643984, -643984]$[113, 218, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0gw1qwEem2CfQ3IBuTKw" id="(0.8333333333333343,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0gxFqwEem2CfQ3IBuTKw" id="(0.4861878453038674,0.2682926829268293)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_bK0gxVqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_bK0gQFqwEem2CfQ3IBuTKw" target="_bK0gc1qwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0gxlqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0gx1qwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gyFqwEem2CfQ3IBuTKw" x="-15" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0gyVqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0gylqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gy1qwEem2CfQ3IBuTKw" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0gzFqwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0gzVqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0gzlqwEem2CfQ3IBuTKw" x="15" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0gz1qwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0g0FqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g0VqwEem2CfQ3IBuTKw" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_bK0g0lqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_bKhlNlqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bK0g01qwEem2CfQ3IBuTKw" points="[240, 303, -643984, -643984]$[281, 303, -643984, -643984]$[281, 321, -643984, -643984]$[320, 321, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0g1FqwEem2CfQ3IBuTKw" id="(0.994475138121547,0.07317073170731707)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0g1VqwEem2CfQ3IBuTKw" id="(0.07647058823529412,0.525)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_bK0g1lqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_bK0gc1qwEem2CfQ3IBuTKw" target="_bK0gfFqwEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0g11qwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g2FqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0g2VqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g2lqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0g21qwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g3FqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0g3VqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g3lqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_bK0g31qwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_bKhlN1qwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bK0g4FqwEem2CfQ3IBuTKw" points="[12, -4, -143, 0]$[142, -4, -13, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0g4VqwEem2CfQ3IBuTKw" id="(0.5294117647058824,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0g4lqwEem2CfQ3IBuTKw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_bK0g41qwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_bK0gfFqwEem2CfQ3IBuTKw" target="_bK0gk1qwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0g5FqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g5VqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0g5lqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g51qwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0g6FqwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g6VqwEem2CfQ3IBuTKw" x="70" y="-25"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0g6lqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g61qwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_bK0g7FqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_bKhlOFqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bK0g7VqwEem2CfQ3IBuTKw" points="[260, 313, -643984, -643984]$[460, 298, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0g7lqwEem2CfQ3IBuTKw" id="(1.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0g71qwEem2CfQ3IBuTKw" id="(0.03977272727272727,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_bK0g8FqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_bK0gfFqwEem2CfQ3IBuTKw" target="_bK0gSVqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0g8VqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0g8lqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g81qwEem2CfQ3IBuTKw" x="-7" y="-60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0g9FqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0g9VqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g9lqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0g91qwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0g-FqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g-VqwEem2CfQ3IBuTKw" x="135" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0g-lqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0g-1qwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0g_FqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_bK0g_VqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_bKhlOlqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bK0g_lqwEem2CfQ3IBuTKw" points="[400, 395, -643984, -643984]$[40, 395, -643984, -643984]$[40, 255, -643984, -643984]$[120, 255, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0g_1qwEem2CfQ3IBuTKw" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0hAFqwEem2CfQ3IBuTKw" id="(0.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_bK0hAVqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_bK0gk1qwEem2CfQ3IBuTKw" target="_bK0gVVqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0hAlqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0hA1qwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0hBFqwEem2CfQ3IBuTKw" x="-54" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0hBVqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0hBlqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0hB1qwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0hCFqwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0hCVqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0hClqwEem2CfQ3IBuTKw" x="54" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0hC1qwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bK0hDFqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0hDVqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_bK0hDlqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_bKhlPFqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bK0hD1qwEem2CfQ3IBuTKw" points="[706, 400, -643984, -643984]$[706, 440, -643984, -643984]$[160, 440, -643984, -643984]$[160, 480, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0hEFqwEem2CfQ3IBuTKw" id="(0.48863636363636365,0.75)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0hEVqwEem2CfQ3IBuTKw" id="(0.47058823529411764,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_bK0hElqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_bK0gVVqwEem2CfQ3IBuTKw" target="_bK0gXlqwEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0hE1qwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0hFFqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0hFVqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0hFlqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0hF1qwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0hGFqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bK0hGVqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bK0hGlqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_bK0hG1qwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_bKhlPVqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bK0hHFqwEem2CfQ3IBuTKw" points="[59, 104, 21, 122]$[59, 147, 21, 165]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0hHVqwEem2CfQ3IBuTKw" id="(0.5117647058823529,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bK0hHlqwEem2CfQ3IBuTKw" id="(0.4,0.4)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_bK9qEFqwEem2CfQ3IBuTKw" type="PapyrusUMLActivityDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_bK9qEVqwEem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_bK9qElqwEem2CfQ3IBuTKw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_bK9qE1qwEem2CfQ3IBuTKw">
+      <owner xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_bKhlMlqwEem2CfQ3IBuTKw"/>
+    </styles>
+    <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_bKhlMlqwEem2CfQ3IBuTKw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_jbPeMFqwEem2CfQ3IBuTKw" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_jbPeMVqwEem2CfQ3IBuTKw" type="Activity_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPeMlqwEem2CfQ3IBuTKw" type="Activity_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jbPeM1qwEem2CfQ3IBuTKw" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_jbPeNFqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_jbPeNVqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPeNlqwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jbPeN1qwEem2CfQ3IBuTKw" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_jbPeOFqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_jbPeOVqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPeOlqwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jbPeO1qwEem2CfQ3IBuTKw" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_jbPePFqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_jbPePVqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPePlqwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jbPeP1qwEem2CfQ3IBuTKw" type="Activity_ActivityNodeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_jbPeQFqwEem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_jbPeQVqwEem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_jbPeQlqwEem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeQ1qwEem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_jbPeRFqwEem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_jbPeRVqwEem2CfQ3IBuTKw" type="InitialNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPeRlqwEem2CfQ3IBuTKw" type="InitialNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeR1qwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPeSFqwEem2CfQ3IBuTKw" type="InitialNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeSVqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jbPeSlqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:InitialNode" href="TicheteConcursCiocolata.uml#_jbGUTlqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPeTlqwEem2CfQ3IBuTKw" x="94" y="10"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_jbPeT1qwEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPeUFqwEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPeUVqwEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeUlqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jbPeU1qwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_jbGUT1qwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPeV1qwEem2CfQ3IBuTKw" x="34" y="130" width="181" height="41"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_jbPeWFqwEem2CfQ3IBuTKw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPeWVqwEem2CfQ3IBuTKw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeWlqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPeW1qwEem2CfQ3IBuTKw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeXFqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPeXVqwEem2CfQ3IBuTKw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeXlqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jbPeX1qwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:DecisionNode" href="TicheteConcursCiocolata.uml#_jbGUUFqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPeY1qwEem2CfQ3IBuTKw" x="94" y="70"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_jbPeZFqwEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPeZVqwEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPeZlqwEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeZ1qwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jbPeaFqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_jbGUVFqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPebFqwEem2CfQ3IBuTKw" x="54" y="290"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_jbPebVqwEem2CfQ3IBuTKw" type="ActivityFinalNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPeblqwEem2CfQ3IBuTKw" type="ActivityFinalNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeb1qwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPecFqwEem2CfQ3IBuTKw" type="ActivityFinalNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPecVqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jbPeclqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:ActivityFinalNode" href="TicheteConcursCiocolata.uml#_jbGUVVqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPedlqwEem2CfQ3IBuTKw" x="134" y="370"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPed1qwEem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jbPeeFqwEem2CfQ3IBuTKw"/>
+          <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_jbGUQVqwEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPefFqwEem2CfQ3IBuTKw" x="15" y="104" width="241" height="441"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_jbPefVqwEem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_jbPeflqwEem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_jbPef1qwEem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPegFqwEem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_jbPegVqwEem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_jbPeglqwEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPeg1qwEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPehFqwEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPehVqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jbPehlqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_jbGUUVqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPeilqwEem2CfQ3IBuTKw" x="54" y="130"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_jbPei1qwEem2CfQ3IBuTKw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPejFqwEem2CfQ3IBuTKw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPejVqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPejlqwEem2CfQ3IBuTKw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPej1qwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPekFqwEem2CfQ3IBuTKw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPekVqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jbPeklqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:DecisionNode" href="TicheteConcursCiocolata.uml#_jbGUU1qwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPellqwEem2CfQ3IBuTKw" x="134" y="210"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPel1qwEem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jbPemFqwEem2CfQ3IBuTKw">
+            <diagramLink xmi:type="notation:Diagram" href="adaugareConcurs.notation#_ZOtNAFqVEem2CfQ3IBuTKw"/>
+          </styles>
+          <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_jbGUQlqwEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPenFqwEem2CfQ3IBuTKw" x="255" y="104" width="281" height="441"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_jbPenVqwEem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_jbPenlqwEem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_jbPen1qwEem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeoFqwEem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_jbPeoVqwEem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_jbPeolqwEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPeo1qwEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_jbPepFqwEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPepVqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jbPeplqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_jbGUUlqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPeqlqwEem2CfQ3IBuTKw" x="74" y="190"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPeq1qwEem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jbPerFqwEem2CfQ3IBuTKw"/>
+          <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_jbGUQ1qwEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPesFqwEem2CfQ3IBuTKw" x="535" y="104" width="301" height="441"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPesVqwEem2CfQ3IBuTKw"/>
+      </children>
+      <element xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_jbGUQFqwEem2CfQ3IBuTKw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbPeslqwEem2CfQ3IBuTKw"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_65OWeFbdEemwX6UL-JQQCg" type="Association_SourceMultiplicityLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_K13ZUFbeEemwX6UL-JQQCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_65OWeVbdEemwX6UL-JQQCg" x="36" y="19"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_jbPes1qwEem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_jbPetFqwEem2CfQ3IBuTKw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_jbPetVqwEem2CfQ3IBuTKw" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
+      <owner xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_jbGUQFqwEem2CfQ3IBuTKw"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_jbGUQFqwEem2CfQ3IBuTKw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_jbPetlqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_jbPeRVqwEem2CfQ3IBuTKw" target="_jbPeWFqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPet1qwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeuFqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPeuVqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeulqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPeu1qwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPevFqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPevVqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPevlqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jbPev1qwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_jbGURFqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jbPewFqwEem2CfQ3IBuTKw" points="[120, 192, -643984, -643984]$[130, 240, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPewVqwEem2CfQ3IBuTKw" id="(0.15,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPewlqwEem2CfQ3IBuTKw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_jbPew1qwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_jbPeWFqwEem2CfQ3IBuTKw" target="_jbPeT1qwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPexFqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPexVqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPexlqwEem2CfQ3IBuTKw" x="-5" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPex1qwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPeyFqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPeyVqwEem2CfQ3IBuTKw" x="1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPeylqwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPey1qwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPezFqwEem2CfQ3IBuTKw" x="7" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPezVqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPezlqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPez1qwEem2CfQ3IBuTKw" x="-1" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jbPe0FqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_jbGURVqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jbPe0VqwEem2CfQ3IBuTKw" points="[121, 178, -643984, -643984]$[113, 218, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPe0lqwEem2CfQ3IBuTKw" id="(0.8333333333333343,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPe01qwEem2CfQ3IBuTKw" id="(0.4861878453038674,0.2682926829268293)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_jbPe1FqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_jbPeT1qwEem2CfQ3IBuTKw" target="_jbPeglqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPe1VqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPe1lqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPe11qwEem2CfQ3IBuTKw" x="-15" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPe2FqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPe2VqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPe2lqwEem2CfQ3IBuTKw" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPe21qwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPe3FqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPe3VqwEem2CfQ3IBuTKw" x="15" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPe3lqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPe31qwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPe4FqwEem2CfQ3IBuTKw" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jbPe4VqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_jbGURlqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jbPe4lqwEem2CfQ3IBuTKw" points="[240, 303, -643984, -643984]$[281, 303, -643984, -643984]$[281, 321, -643984, -643984]$[320, 321, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPe41qwEem2CfQ3IBuTKw" id="(0.994475138121547,0.07317073170731707)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPe5FqwEem2CfQ3IBuTKw" id="(0.07647058823529412,0.525)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_jbPe5VqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_jbPeglqwEem2CfQ3IBuTKw" target="_jbPei1qwEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPe5lqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPe51qwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPe6FqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPe6VqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPe6lqwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPe61qwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPe7FqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPe7VqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jbPe7lqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_jbGUR1qwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jbPe71qwEem2CfQ3IBuTKw" points="[12, -4, -143, 0]$[142, -4, -13, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPe8FqwEem2CfQ3IBuTKw" id="(0.5294117647058824,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPe8VqwEem2CfQ3IBuTKw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_jbPe8lqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_jbPei1qwEem2CfQ3IBuTKw" target="_jbPeolqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPe81qwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPe9FqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPe9VqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPe9lqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPe91qwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPe-FqwEem2CfQ3IBuTKw" x="70" y="-25"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPe-VqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPe-lqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jbPe-1qwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_jbGUSFqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jbPe_FqwEem2CfQ3IBuTKw" points="[260, 313, -643984, -643984]$[460, 298, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPe_VqwEem2CfQ3IBuTKw" id="(1.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPe_lqwEem2CfQ3IBuTKw" id="(0.03977272727272727,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_jbPe_1qwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_jbPei1qwEem2CfQ3IBuTKw" target="_jbPeWFqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPfAFqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPfAVqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPfAlqwEem2CfQ3IBuTKw" x="-7" y="-60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPfA1qwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPfBFqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPfBVqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPfBlqwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPfB1qwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPfCFqwEem2CfQ3IBuTKw" x="135" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPfCVqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPfClqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPfC1qwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jbPfDFqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_jbGUSlqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jbPfDVqwEem2CfQ3IBuTKw" points="[400, 395, -643984, -643984]$[40, 395, -643984, -643984]$[40, 255, -643984, -643984]$[120, 255, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPfDlqwEem2CfQ3IBuTKw" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPfD1qwEem2CfQ3IBuTKw" id="(0.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_jbPfEFqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_jbPeolqwEem2CfQ3IBuTKw" target="_jbPeZFqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPfEVqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPfElqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPfE1qwEem2CfQ3IBuTKw" x="-54" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPfFFqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPfFVqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPfFlqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPfF1qwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPfGFqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPfGVqwEem2CfQ3IBuTKw" x="54" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPfGlqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jbPfG1qwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPfHFqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jbPfHVqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_jbGUTFqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jbPfHlqwEem2CfQ3IBuTKw" points="[706, 400, -643984, -643984]$[706, 440, -643984, -643984]$[160, 440, -643984, -643984]$[160, 480, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPfH1qwEem2CfQ3IBuTKw" id="(0.48863636363636365,0.75)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPfIFqwEem2CfQ3IBuTKw" id="(0.47058823529411764,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_jbPfIVqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_jbPeZFqwEem2CfQ3IBuTKw" target="_jbPebVqwEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPfIlqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPfI1qwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPfJFqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPfJVqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPfJlqwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPfJ1qwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jbPfKFqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbPfKVqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jbPfKlqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_jbGUTVqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jbPfK1qwEem2CfQ3IBuTKw" points="[59, 104, 21, 122]$[59, 147, 21, 165]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPfLFqwEem2CfQ3IBuTKw" id="(0.5117647058823529,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jbPfLVqwEem2CfQ3IBuTKw" id="(0.4,0.4)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_jbZPMFqwEem2CfQ3IBuTKw" type="PapyrusUMLActivityDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_jbZPMVqwEem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_jbZPMlqwEem2CfQ3IBuTKw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_jbZPM1qwEem2CfQ3IBuTKw">
+      <owner xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_jbGUQlqwEem2CfQ3IBuTKw"/>
+    </styles>
+    <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_jbGUQlqwEem2CfQ3IBuTKw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_j4UbwFqwEem2CfQ3IBuTKw" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_j4UbwVqwEem2CfQ3IBuTKw" type="Activity_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UbwlqwEem2CfQ3IBuTKw" type="Activity_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_j4Ubw1qwEem2CfQ3IBuTKw" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_j4UbxFqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_j4UbxVqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UbxlqwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_j4Ubx1qwEem2CfQ3IBuTKw" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_j4UbyFqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_j4UbyVqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UbylqwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_j4Uby1qwEem2CfQ3IBuTKw" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_j4UbzFqwEem2CfQ3IBuTKw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_j4UbzVqwEem2CfQ3IBuTKw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UbzlqwEem2CfQ3IBuTKw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_j4Ubz1qwEem2CfQ3IBuTKw" type="Activity_ActivityNodeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_j4Ub0FqwEem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_j4Ub0VqwEem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_j4Ub0lqwEem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Ub01qwEem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_j4Ub1FqwEem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_j4Ub1VqwEem2CfQ3IBuTKw" type="InitialNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4Ub1lqwEem2CfQ3IBuTKw" type="InitialNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Ub11qwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4Ub2FqwEem2CfQ3IBuTKw" type="InitialNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Ub2VqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_j4Ub2lqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:InitialNode" href="TicheteConcursCiocolata.uml#_j4LR3lqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4Ub3lqwEem2CfQ3IBuTKw" x="94" y="10"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_j4Ub31qwEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4Ub4FqwEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4Ub4VqwEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Ub4lqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_j4Ub41qwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_j4LR31qwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4Ub51qwEem2CfQ3IBuTKw" x="34" y="130" width="181" height="41"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_j4Ub6FqwEem2CfQ3IBuTKw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4Ub6VqwEem2CfQ3IBuTKw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Ub6lqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4Ub61qwEem2CfQ3IBuTKw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Ub7FqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4Ub7VqwEem2CfQ3IBuTKw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Ub7lqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_j4Ub71qwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:DecisionNode" href="TicheteConcursCiocolata.uml#_j4LR4FqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4Ub81qwEem2CfQ3IBuTKw" x="94" y="70"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_j4Ub9FqwEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4Ub9VqwEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4Ub9lqwEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Ub91qwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_j4Ub-FqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_j4LR5FqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4Ub_FqwEem2CfQ3IBuTKw" x="54" y="290"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_j4Ub_VqwEem2CfQ3IBuTKw" type="ActivityFinalNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4Ub_lqwEem2CfQ3IBuTKw" type="ActivityFinalNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Ub_1qwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4UcAFqwEem2CfQ3IBuTKw" type="ActivityFinalNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcAVqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_j4UcAlqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:ActivityFinalNode" href="TicheteConcursCiocolata.uml#_j4LR5VqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UcBlqwEem2CfQ3IBuTKw" x="134" y="370"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UcB1qwEem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_j4UcCFqwEem2CfQ3IBuTKw"/>
+          <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_j4LR0VqwEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UcDFqwEem2CfQ3IBuTKw" x="15" y="104" width="241" height="441"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_j4UcDVqwEem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_j4UcDlqwEem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_j4UcD1qwEem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcEFqwEem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_j4UcEVqwEem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_j4UcElqwEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4UcE1qwEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4UcFFqwEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcFVqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_j4UcFlqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_j4LR4VqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UcGlqwEem2CfQ3IBuTKw" x="54" y="130"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_j4UcG1qwEem2CfQ3IBuTKw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4UcHFqwEem2CfQ3IBuTKw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcHVqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4UcHlqwEem2CfQ3IBuTKw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcH1qwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4UcIFqwEem2CfQ3IBuTKw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcIVqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_j4UcIlqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:DecisionNode" href="TicheteConcursCiocolata.uml#_j4LR41qwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UcJlqwEem2CfQ3IBuTKw" x="134" y="210"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UcJ1qwEem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_j4UcKFqwEem2CfQ3IBuTKw">
+            <diagramLink xmi:type="notation:Diagram" href="adaugareConcurs.notation#_ZOtNAFqVEem2CfQ3IBuTKw"/>
+          </styles>
+          <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_j4LR0lqwEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UcLFqwEem2CfQ3IBuTKw" x="255" y="104" width="281" height="441"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_j4UcLVqwEem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_j4UcLlqwEem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_j4UcL1qwEem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcMFqwEem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_j4UcMVqwEem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_j4UcMlqwEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4UcM1qwEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_j4UcNFqwEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcNVqwEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_j4UcNlqwEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="TicheteConcursCiocolata.uml#_j4LR4lqwEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UcOlqwEem2CfQ3IBuTKw" x="74" y="190"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UcO1qwEem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_j4UcPFqwEem2CfQ3IBuTKw"/>
+          <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_j4LR01qwEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UcQFqwEem2CfQ3IBuTKw" x="535" y="104" width="301" height="441"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UcQVqwEem2CfQ3IBuTKw"/>
+      </children>
+      <element xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_j4LR0FqwEem2CfQ3IBuTKw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j4UcQlqwEem2CfQ3IBuTKw"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_65OWelbdEemwX6UL-JQQCg" type="Association_TargetMultiplicityLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_K19f8FbeEemwX6UL-JQQCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_65OWe1bdEemwX6UL-JQQCg" x="-36" y="-18"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_65NvYVbdEemwX6UL-JQQCg"/>
-    <element xmi:type="uml:Association" href="TicheteConcursCiocolata.uml#_65BiIFbdEemwX6UL-JQQCg"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_65NvYlbdEemwX6UL-JQQCg" points="[539, 180, -643984, -643984]$[760, 180, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_650zYFbdEemwX6UL-JQQCg" id="(1.0,0.5769230769230769)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_650zYVbdEemwX6UL-JQQCg" id="(0.0,0.4878048780487805)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_r2zDoFbeEemwX6UL-JQQCg" type="Association_Edge" source="_b6XcIFbeEemwX6UL-JQQCg" target="_1AYbIFbaEemwX6UL-JQQCg">
-    <children xmi:type="notation:DecorationNode" xmi:id="_r2zDo1beEemwX6UL-JQQCg" type="Association_StereotypeLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_r2zDpFbeEemwX6UL-JQQCg" y="-20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_r2zDpVbeEemwX6UL-JQQCg" type="Association_NameLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_r2zDplbeEemwX6UL-JQQCg" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_r2zDp1beEemwX6UL-JQQCg" type="Association_TargetRoleLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_r2zDqFbeEemwX6UL-JQQCg" y="-20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_r2zDqVbeEemwX6UL-JQQCg" type="Association_SourceRoleLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_r2zDqlbeEemwX6UL-JQQCg" x="-19" y="10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_r2zDq1beEemwX6UL-JQQCg" type="Association_SourceMultiplicityLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_r2zDrFbeEemwX6UL-JQQCg" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_r2zDrVbeEemwX6UL-JQQCg" type="Association_TargetMultiplicityLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_r2zDrlbeEemwX6UL-JQQCg" y="-20"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_r2zDoVbeEemwX6UL-JQQCg"/>
-    <element xmi:type="uml:Association" href="TicheteConcursCiocolata.uml#_r2kaIFbeEemwX6UL-JQQCg"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r2zDolbeEemwX6UL-JQQCg" points="[321, 180, -643984, -643984]$[460, 180, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r3K3EFbeEemwX6UL-JQQCg" id="(1.0,0.49586776859504134)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r3K3EVbeEemwX6UL-JQQCg" id="(0.0,0.5769230769230769)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_scDs0FbeEemwX6UL-JQQCg" type="Association_Edge" source="_b6XcIFbeEemwX6UL-JQQCg" target="_4aUycFbaEemwX6UL-JQQCg">
-    <children xmi:type="notation:DecorationNode" xmi:id="_scDs01beEemwX6UL-JQQCg" type="Association_StereotypeLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_scDs1FbeEemwX6UL-JQQCg" y="-20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_scDs1VbeEemwX6UL-JQQCg" type="Association_NameLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_scDs1lbeEemwX6UL-JQQCg" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_scDs11beEemwX6UL-JQQCg" type="Association_TargetRoleLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_scDs2FbeEemwX6UL-JQQCg" x="14" y="-54"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_scDs2VbeEemwX6UL-JQQCg" type="Association_SourceRoleLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_scDs2lbeEemwX6UL-JQQCg" x="-15" y="73"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_scET4FbeEemwX6UL-JQQCg" type="Association_SourceMultiplicityLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_scET4VbeEemwX6UL-JQQCg" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_scET4lbeEemwX6UL-JQQCg" type="Association_TargetMultiplicityLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_scET41beEemwX6UL-JQQCg" x="5" y="-33"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_scDs0VbeEemwX6UL-JQQCg"/>
-    <element xmi:type="uml:Association" href="TicheteConcursCiocolata.uml#_sb4tsFbeEemwX6UL-JQQCg"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_scDs0lbeEemwX6UL-JQQCg" points="[240, 241, -643984, -643984]$[240, 340, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sckqMFbeEemwX6UL-JQQCg" id="(0.5524861878453039,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sckqMVbeEemwX6UL-JQQCg" id="(0.5633802816901409,0.0)"/>
-  </edges>
-</notation:Diagram>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_j4UcQ1qwEem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_j4UcRFqwEem2CfQ3IBuTKw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_j4UcRVqwEem2CfQ3IBuTKw" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
+      <owner xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_j4LR0FqwEem2CfQ3IBuTKw"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_j4LR0FqwEem2CfQ3IBuTKw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_j4UcRlqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_j4Ub1VqwEem2CfQ3IBuTKw" target="_j4Ub6FqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcR1qwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcSFqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcSVqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcSlqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcS1qwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcTFqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcTVqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcTlqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_j4UcT1qwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_j4LR1FqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j4UcUFqwEem2CfQ3IBuTKw" points="[120, 192, -643984, -643984]$[130, 240, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcUVqwEem2CfQ3IBuTKw" id="(0.15,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcUlqwEem2CfQ3IBuTKw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_j4UcU1qwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_j4Ub6FqwEem2CfQ3IBuTKw" target="_j4Ub31qwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcVFqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UcVVqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcVlqwEem2CfQ3IBuTKw" x="-5" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcV1qwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UcWFqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcWVqwEem2CfQ3IBuTKw" x="1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcWlqwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UcW1qwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcXFqwEem2CfQ3IBuTKw" x="7" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcXVqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UcXlqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcX1qwEem2CfQ3IBuTKw" x="-1" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_j4UcYFqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_j4LR1VqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j4UcYVqwEem2CfQ3IBuTKw" points="[121, 178, -643984, -643984]$[113, 218, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcYlqwEem2CfQ3IBuTKw" id="(0.8333333333333343,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcY1qwEem2CfQ3IBuTKw" id="(0.4861878453038674,0.2682926829268293)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_j4UcZFqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_j4Ub31qwEem2CfQ3IBuTKw" target="_j4UcElqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcZVqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UcZlqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcZ1qwEem2CfQ3IBuTKw" x="-15" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcaFqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UcaVqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcalqwEem2CfQ3IBuTKw" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4Uca1qwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UcbFqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcbVqwEem2CfQ3IBuTKw" x="15" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcblqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4Ucb1qwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UccFqwEem2CfQ3IBuTKw" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_j4UccVqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_j4LR1lqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j4UcclqwEem2CfQ3IBuTKw" points="[240, 303, -643984, -643984]$[281, 303, -643984, -643984]$[281, 321, -643984, -643984]$[320, 321, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4Ucc1qwEem2CfQ3IBuTKw" id="(0.994475138121547,0.07317073170731707)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcdFqwEem2CfQ3IBuTKw" id="(0.07647058823529412,0.525)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_j4UcdVqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_j4UcElqwEem2CfQ3IBuTKw" target="_j4UcG1qwEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcdlqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Ucd1qwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UceFqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UceVqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcelqwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Uce1qwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcfFqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcfVqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_j4UcflqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_j4LR11qwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j4Ucf1qwEem2CfQ3IBuTKw" points="[12, -4, -143, 0]$[142, -4, -13, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcgFqwEem2CfQ3IBuTKw" id="(0.5294117647058824,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcgVqwEem2CfQ3IBuTKw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_j4UcglqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_j4UcG1qwEem2CfQ3IBuTKw" target="_j4UcMlqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4Ucg1qwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UchFqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UchVqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UchlqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4Uch1qwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UciFqwEem2CfQ3IBuTKw" x="70" y="-25"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UciVqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcilqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_j4Uci1qwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_j4LR2FqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j4UcjFqwEem2CfQ3IBuTKw" points="[260, 313, -643984, -643984]$[460, 298, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcjVqwEem2CfQ3IBuTKw" id="(1.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcjlqwEem2CfQ3IBuTKw" id="(0.03977272727272727,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_j4Ucj1qwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_j4UcG1qwEem2CfQ3IBuTKw" target="_j4Ub6FqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UckFqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UckVqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcklqwEem2CfQ3IBuTKw" x="-7" y="-60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4Uck1qwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UclFqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UclVqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcllqwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4Ucl1qwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcmFqwEem2CfQ3IBuTKw" x="135" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcmVqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UcmlqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Ucm1qwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_j4UcnFqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_j4LR2lqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j4UcnVqwEem2CfQ3IBuTKw" points="[400, 395, -643984, -643984]$[40, 395, -643984, -643984]$[40, 255, -643984, -643984]$[120, 255, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcnlqwEem2CfQ3IBuTKw" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4Ucn1qwEem2CfQ3IBuTKw" id="(0.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_j4UcoFqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_j4UcMlqwEem2CfQ3IBuTKw" target="_j4Ub9FqwEem2CfQ3IBuTKw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcoVqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UcolqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Uco1qwEem2CfQ3IBuTKw" x="-54" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcpFqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UcpVqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcplqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4Ucp1qwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4UcqFqwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcqVqwEem2CfQ3IBuTKw" x="54" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcqlqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_j4Ucq1qwEem2CfQ3IBuTKw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcrFqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_j4UcrVqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_j4LR3FqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j4UcrlqwEem2CfQ3IBuTKw" points="[706, 400, -643984, -643984]$[706, 440, -643984, -643984]$[160, 440, -643984, -643984]$[160, 480, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4Ucr1qwEem2CfQ3IBuTKw" id="(0.48863636363636365,0.75)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcsFqwEem2CfQ3IBuTKw" id="(0.47058823529411764,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_j4UcsVqwEem2CfQ3IBuTKw" type="ControlFlow_Edge" source="_j4Ub9FqwEem2CfQ3IBuTKw" target="_j4Ub_VqwEem2CfQ3IBuTKw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcslqwEem2CfQ3IBuTKw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Ucs1qwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UctFqwEem2CfQ3IBuTKw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UctVqwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UctlqwEem2CfQ3IBuTKw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4Uct1qwEem2CfQ3IBuTKw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_j4UcuFqwEem2CfQ3IBuTKw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j4UcuVqwEem2CfQ3IBuTKw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_j4UculqwEem2CfQ3IBuTKw"/>
+      <element xmi:type="uml:ControlFlow" href="TicheteConcursCiocolata.uml#_j4LR3VqwEem2CfQ3IBuTKw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j4Ucu1qwEem2CfQ3IBuTKw" points="[59, 104, 21, 122]$[59, 147, 21, 165]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcvFqwEem2CfQ3IBuTKw" id="(0.5117647058823529,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j4UcvVqwEem2CfQ3IBuTKw" id="(0.4,0.4)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_j4UcvlqwEem2CfQ3IBuTKw" type="PapyrusUMLActivityDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_j4Ucv1qwEem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_j4UcwFqwEem2CfQ3IBuTKw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_j4UcwVqwEem2CfQ3IBuTKw">
+      <owner xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_j4LR0lqwEem2CfQ3IBuTKw"/>
+    </styles>
+    <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_j4LR0lqwEem2CfQ3IBuTKw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_flvPiFq0Eem2CfQ3IBuTKw" type="PapyrusUMLActivityDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_flvPiVq0Eem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_flvPilq0Eem2CfQ3IBuTKw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_flvPi1q0Eem2CfQ3IBuTKw">
+      <owner xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_flmFglq0Eem2CfQ3IBuTKw"/>
+    </styles>
+    <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_flmFglq0Eem2CfQ3IBuTKw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_flvPjFq0Eem2CfQ3IBuTKw" type="PapyrusUMLActivityDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_flvPjVq0Eem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_flvPjlq0Eem2CfQ3IBuTKw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_flvPj1q0Eem2CfQ3IBuTKw">
+      <owner xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_flmFgFq0Eem2CfQ3IBuTKw"/>
+    </styles>
+    <element xmi:type="uml:ActivityPartition" href="TicheteConcursCiocolata.uml#_flmFgFq0Eem2CfQ3IBuTKw"/>
+  </notation:Diagram>
+</xmi:XMI>

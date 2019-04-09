@@ -19,72 +19,6 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uwo7v1qUEem2CfQ3IBuTKw"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_Uwo7wFqUEem2CfQ3IBuTKw" type="Activity_ActivityNodeCompartment">
-        <children xmi:type="notation:Shape" xmi:id="_Hcw1YFqVEem2CfQ3IBuTKw" type="ActivityPartition_Shape">
-          <children xmi:type="notation:DecorationNode" xmi:id="_Hcw1Y1qVEem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_Hcw1ZFqVEem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_Hcw1ZVqVEem2CfQ3IBuTKw" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_HcxccFqVEem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
-            <children xmi:type="notation:Shape" xmi:id="_ToncUFqXEem2CfQ3IBuTKw" type="InitialNode_Shape">
-              <children xmi:type="notation:DecorationNode" xmi:id="_ToncU1qXEem2CfQ3IBuTKw" type="InitialNode_FloatingNameLabel">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_ToncVFqXEem2CfQ3IBuTKw" y="15"/>
-              </children>
-              <children xmi:type="notation:DecorationNode" xmi:id="_ToncVVqXEem2CfQ3IBuTKw" type="InitialNode_StereotypeLabel">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_ToncVlqXEem2CfQ3IBuTKw" y="15"/>
-              </children>
-              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_ToncUVqXEem2CfQ3IBuTKw"/>
-              <element xmi:type="uml:InitialNode" href="adaugareConcurs.uml#_ToeSYFqXEem2CfQ3IBuTKw"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ToncUlqXEem2CfQ3IBuTKw" x="94" y="10"/>
-            </children>
-            <children xmi:type="notation:Shape" xmi:id="_Xkxv4FqXEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
-              <children xmi:type="notation:DecorationNode" xmi:id="_Xkxv41qXEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
-              <children xmi:type="notation:DecorationNode" xmi:id="_Xkxv5FqXEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_Xkxv5VqXEem2CfQ3IBuTKw" y="15"/>
-              </children>
-              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Xkxv4VqXEem2CfQ3IBuTKw"/>
-              <element xmi:type="uml:OpaqueAction" href="adaugareConcurs.uml#_Xkol8FqXEem2CfQ3IBuTKw"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xkxv5lqXEem2CfQ3IBuTKw" x="34" y="130" width="181" height="41"/>
-            </children>
-            <children xmi:type="notation:Shape" xmi:id="_7PKvwFqXEem2CfQ3IBuTKw" type="DecisionNode_Shape">
-              <children xmi:type="notation:DecorationNode" xmi:id="_7PKvw1qXEem2CfQ3IBuTKw" type="DecisionNode_FloatingNameLabel">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_7PKvxFqXEem2CfQ3IBuTKw" y="15"/>
-              </children>
-              <children xmi:type="notation:DecorationNode" xmi:id="_7PKvxVqXEem2CfQ3IBuTKw" type="DecisionNode_DecisionInputLabel">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_7PKvxlqXEem2CfQ3IBuTKw" y="15"/>
-              </children>
-              <children xmi:type="notation:DecorationNode" xmi:id="_7PKvx1qXEem2CfQ3IBuTKw" type="DecisionNode_StereotypeLabel">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_7PKvyFqXEem2CfQ3IBuTKw" y="15"/>
-              </children>
-              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_7PKvwVqXEem2CfQ3IBuTKw"/>
-              <element xmi:type="uml:DecisionNode" href="adaugareConcurs.uml#_7PA-wFqXEem2CfQ3IBuTKw"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7PKvwlqXEem2CfQ3IBuTKw" x="94" y="70"/>
-            </children>
-            <children xmi:type="notation:Shape" xmi:id="_N-SkgFqcEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
-              <children xmi:type="notation:DecorationNode" xmi:id="_N-Skg1qcEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
-              <children xmi:type="notation:DecorationNode" xmi:id="_N-SkhFqcEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_N-SkhVqcEem2CfQ3IBuTKw" y="15"/>
-              </children>
-              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_N-SkgVqcEem2CfQ3IBuTKw"/>
-              <element xmi:type="uml:OpaqueAction" href="adaugareConcurs.uml#_N9_pkFqcEem2CfQ3IBuTKw"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N-SkhlqcEem2CfQ3IBuTKw" x="54" y="290"/>
-            </children>
-            <children xmi:type="notation:Shape" xmi:id="_hkOpUFqcEem2CfQ3IBuTKw" type="ActivityFinalNode_Shape">
-              <children xmi:type="notation:DecorationNode" xmi:id="_hkOpU1qcEem2CfQ3IBuTKw" type="ActivityFinalNode_FloatingNameLabel">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_hkOpVFqcEem2CfQ3IBuTKw" y="15"/>
-              </children>
-              <children xmi:type="notation:DecorationNode" xmi:id="_hkOpVVqcEem2CfQ3IBuTKw" type="ActivityFinalNode_StereotypeLabel">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_hkOpVlqcEem2CfQ3IBuTKw" y="15"/>
-              </children>
-              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_hkOpUVqcEem2CfQ3IBuTKw"/>
-              <element xmi:type="uml:ActivityFinalNode" href="adaugareConcurs.uml#_hkE4UFqcEem2CfQ3IBuTKw"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hkOpUlqcEem2CfQ3IBuTKw" x="134" y="370"/>
-            </children>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HcxccVqVEem2CfQ3IBuTKw"/>
-          </children>
-          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Hcw1YVqVEem2CfQ3IBuTKw"/>
-          <element xmi:type="uml:ActivityPartition" href="adaugareConcurs.uml#_HctLAFqVEem2CfQ3IBuTKw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hcw1YlqVEem2CfQ3IBuTKw" x="15" y="104" width="241" height="441"/>
-        </children>
         <children xmi:type="notation:Shape" xmi:id="_VIDgsFqVEem2CfQ3IBuTKw" type="ActivityPartition_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_VIEHwFqVEem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_VIEHwVqVEem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
@@ -140,6 +74,72 @@
           <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_eT0FoFqVEem2CfQ3IBuTKw"/>
           <element xmi:type="uml:ActivityPartition" href="adaugareConcurs.uml#_eTt_AFqVEem2CfQ3IBuTKw"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eT0FoVqVEem2CfQ3IBuTKw" x="535" y="104" width="301" height="441"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Hcw1YFqVEem2CfQ3IBuTKw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Hcw1Y1qVEem2CfQ3IBuTKw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Hcw1ZFqVEem2CfQ3IBuTKw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Hcw1ZVqVEem2CfQ3IBuTKw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_HcxccFqVEem2CfQ3IBuTKw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_ToncUFqXEem2CfQ3IBuTKw" type="InitialNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_ToncU1qXEem2CfQ3IBuTKw" type="InitialNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ToncVFqXEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_ToncVVqXEem2CfQ3IBuTKw" type="InitialNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ToncVlqXEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_ToncUVqXEem2CfQ3IBuTKw" diagramLink="_QLUI0Fq0Eem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:InitialNode" href="adaugareConcurs.uml#_ToeSYFqXEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ToncUlqXEem2CfQ3IBuTKw" x="94" y="10" height="20"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_Xkxv4FqXEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Xkxv41qXEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_Xkxv5FqXEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Xkxv5VqXEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Xkxv4VqXEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="adaugareConcurs.uml#_Xkol8FqXEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xkxv5lqXEem2CfQ3IBuTKw" x="34" y="130" width="181" height="41"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_7PKvwFqXEem2CfQ3IBuTKw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_7PKvw1qXEem2CfQ3IBuTKw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_7PKvxFqXEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_7PKvxVqXEem2CfQ3IBuTKw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_7PKvxlqXEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_7PKvx1qXEem2CfQ3IBuTKw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_7PKvyFqXEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_7PKvwVqXEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:DecisionNode" href="adaugareConcurs.uml#_7PA-wFqXEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7PKvwlqXEem2CfQ3IBuTKw" x="94" y="70"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_N-SkgFqcEem2CfQ3IBuTKw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_N-Skg1qcEem2CfQ3IBuTKw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_N-SkhFqcEem2CfQ3IBuTKw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_N-SkhVqcEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_N-SkgVqcEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:OpaqueAction" href="adaugareConcurs.uml#_N9_pkFqcEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N-SkhlqcEem2CfQ3IBuTKw" x="54" y="290"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_hkOpUFqcEem2CfQ3IBuTKw" type="ActivityFinalNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_hkOpU1qcEem2CfQ3IBuTKw" type="ActivityFinalNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_hkOpVFqcEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_hkOpVVqcEem2CfQ3IBuTKw" type="ActivityFinalNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_hkOpVlqcEem2CfQ3IBuTKw" y="15"/>
+              </children>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_hkOpUVqcEem2CfQ3IBuTKw"/>
+              <element xmi:type="uml:ActivityFinalNode" href="adaugareConcurs.uml#_hkE4UFqcEem2CfQ3IBuTKw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hkOpUlqcEem2CfQ3IBuTKw" x="134" y="370"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HcxccVqVEem2CfQ3IBuTKw"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Hcw1YVqVEem2CfQ3IBuTKw" diagramLink="_8n-sEFqzEem2CfQ3IBuTKw"/>
+          <element xmi:type="uml:ActivityPartition" href="adaugareConcurs.uml#_HctLAFqVEem2CfQ3IBuTKw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hcw1YlqVEem2CfQ3IBuTKw" x="15" y="44" width="241" height="601"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uwo7wVqUEem2CfQ3IBuTKw"/>
       </children>
@@ -325,5 +325,15 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_ZOtNAVqVEem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_ZOtNAlqVEem2CfQ3IBuTKw"/>
     <element xmi:type="uml:ActivityPartition" href="adaugareConcurs.uml#_VH-oMFqVEem2CfQ3IBuTKw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_8n-sEFqzEem2CfQ3IBuTKw" type="PapyrusUMLActivityDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_8n-sEVqzEem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_8n-sElqzEem2CfQ3IBuTKw"/>
+    <element xmi:type="uml:ActivityPartition" href="adaugareConcurs.uml#_HctLAFqVEem2CfQ3IBuTKw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_QLUI0Fq0Eem2CfQ3IBuTKw" type="PapyrusUMLActivityDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_QLUI0Vq0Eem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_QLUI0lq0Eem2CfQ3IBuTKw"/>
+    <element xmi:type="uml:InitialNode" href="adaugareConcurs.uml#_ToeSYFqXEem2CfQ3IBuTKw"/>
   </notation:Diagram>
 </xmi:XMI>

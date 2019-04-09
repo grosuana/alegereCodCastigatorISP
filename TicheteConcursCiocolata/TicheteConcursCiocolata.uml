@@ -78,6 +78,185 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_sb570FbeEemwX6UL-JQQCg" name="concurs" type="_b6WOAFbeEemwX6UL-JQQCg" association="_sb4tsFbeEemwX6UL-JQQCg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_M5B1gFqwEem2CfQ3IBuTKw" name="adaugareConcurs">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Sfl_8VqxEem2CfQ3IBuTKw" name="Mircea" type="_24m10FqwEem2CfQ3IBuTKw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jqC5wVqxEem2CfQ3IBuTKw" name="Victorita" type="_24m10FqwEem2CfQ3IBuTKw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qPY2EVqxEem2CfQ3IBuTKw" name="Milka" type="_b6WOAFbeEemwX6UL-JQQCg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_t_N90VqxEem2CfQ3IBuTKw" name="Ghiozdan" type="_4JLYEFbaEemwX6UL-JQQCg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Sfl_8FqxEem2CfQ3IBuTKw" represents="_Sfl_8VqxEem2CfQ3IBuTKw" coveredBy="_5iB5sVqxEem2CfQ3IBuTKw _OPMP0lqzEem2CfQ3IBuTKw _OPyswVqzEem2CfQ3IBuTKw _LxT4J1qzEem2CfQ3IBuTKw _OPo7wFqzEem2CfQ3IBuTKw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_jqC5wFqxEem2CfQ3IBuTKw" name="" represents="_jqC5wVqxEem2CfQ3IBuTKw" coveredBy="_5iB5slqxEem2CfQ3IBuTKw _zbXoAVqyEem2CfQ3IBuTKw _J4GTwlqzEem2CfQ3IBuTKw _OPMP0VqzEem2CfQ3IBuTKw _OPyswlqzEem2CfQ3IBuTKw _LwkRQVqzEem2CfQ3IBuTKw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_qPY2EFqxEem2CfQ3IBuTKw" name="" represents="_qPY2EVqxEem2CfQ3IBuTKw" coveredBy="_HAo-cVqzEem2CfQ3IBuTKw _C1-74VqzEem2CfQ3IBuTKw _cKoFYlqyEem2CfQ3IBuTKw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_t_N90FqxEem2CfQ3IBuTKw" name="" represents="_t_N90VqxEem2CfQ3IBuTKw" coveredBy="_zbXoAlqyEem2CfQ3IBuTKw _J4GTwVqzEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5iB5sVqxEem2CfQ3IBuTKw" name="Message9SendEvent" covered="_Sfl_8FqxEem2CfQ3IBuTKw" message="_5iB5sFqxEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5iB5slqxEem2CfQ3IBuTKw" name="Message9ReceiveEvent" covered="_jqC5wFqxEem2CfQ3IBuTKw" message="_5iB5sFqxEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HAo-cVqzEem2CfQ3IBuTKw" name="Message23SendEvent" covered="_qPY2EFqxEem2CfQ3IBuTKw" message="_HAo-cFqzEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zbXoAVqyEem2CfQ3IBuTKw" name="Message20SendEvent" covered="_jqC5wFqxEem2CfQ3IBuTKw" message="_zbXoAFqyEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zbXoAlqyEem2CfQ3IBuTKw" name="Message20ReceiveEvent" covered="_t_N90FqxEem2CfQ3IBuTKw" message="_zbXoAFqyEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_J4GTwVqzEem2CfQ3IBuTKw" name="Message26SendEvent" covered="_t_N90FqxEem2CfQ3IBuTKw" message="_J4GTwFqzEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_J4GTwlqzEem2CfQ3IBuTKw" name="Message26ReceiveEvent" covered="_jqC5wFqxEem2CfQ3IBuTKw" message="_J4GTwFqzEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OPMP0VqzEem2CfQ3IBuTKw" name="Message29SendEvent" covered="_jqC5wFqxEem2CfQ3IBuTKw" message="_OPMP0FqzEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OPMP0lqzEem2CfQ3IBuTKw" name="Message29ReceiveEvent" covered="_Sfl_8FqxEem2CfQ3IBuTKw" message="_OPMP0FqzEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_OPo7wFqzEem2CfQ3IBuTKw" name="BehaviorExecutionSpecification32" covered="_Sfl_8FqxEem2CfQ3IBuTKw" finish="_OPyswVqzEem2CfQ3IBuTKw" start="_OPMP0lqzEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OPyswVqzEem2CfQ3IBuTKw" name="Message34SendEvent" covered="_Sfl_8FqxEem2CfQ3IBuTKw" message="_OPyswFqzEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OPyswlqzEem2CfQ3IBuTKw" name="Message34ReceiveEvent" covered="_jqC5wFqxEem2CfQ3IBuTKw" message="_OPyswFqzEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_C1-74VqzEem2CfQ3IBuTKw" covered="_qPY2EFqxEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_cKoFYlqyEem2CfQ3IBuTKw" name="Message15ReceiveEvent" covered="_qPY2EFqxEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LwkRQVqzEem2CfQ3IBuTKw" covered="_jqC5wFqxEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LxT4J1qzEem2CfQ3IBuTKw" covered="_Sfl_8FqxEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HAo-clqzEem2CfQ3IBuTKw" name="Message23ReceiveEvent" message="_HAo-cFqzEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LwkRQlqzEem2CfQ3IBuTKw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_C1-74lqzEem2CfQ3IBuTKw"/>
+    <message xmi:type="uml:Message" xmi:id="_5iB5sFqxEem2CfQ3IBuTKw" name="Trimite date concurs" messageSort="asynchCall" receiveEvent="_5iB5slqxEem2CfQ3IBuTKw" sendEvent="_5iB5sVqxEem2CfQ3IBuTKw"/>
+    <message xmi:type="uml:Message" xmi:id="_8SCjMFqxEem2CfQ3IBuTKw" name="Comunica validitatea datelor" messageSort="reply"/>
+    <message xmi:type="uml:Message" xmi:id="_i46iUFqyEem2CfQ3IBuTKw" name="Adauga in sistem" messageSort="asynchCall"/>
+    <message xmi:type="uml:Message" xmi:id="_zbXoAFqyEem2CfQ3IBuTKw" name="Adauga in sistem" messageSort="asynchCall" receiveEvent="_zbXoAlqyEem2CfQ3IBuTKw" sendEvent="_zbXoAVqyEem2CfQ3IBuTKw"/>
+    <message xmi:type="uml:Message" xmi:id="_HAo-cFqzEem2CfQ3IBuTKw" name="Adaugat cu succes!" messageSort="reply" receiveEvent="_HAo-clqzEem2CfQ3IBuTKw" sendEvent="_HAo-cVqzEem2CfQ3IBuTKw"/>
+    <message xmi:type="uml:Message" xmi:id="_J4GTwFqzEem2CfQ3IBuTKw" name="Adaugat cu succes!" messageSort="reply" receiveEvent="_J4GTwlqzEem2CfQ3IBuTKw" sendEvent="_J4GTwVqzEem2CfQ3IBuTKw"/>
+    <message xmi:type="uml:Message" xmi:id="_OPMP0FqzEem2CfQ3IBuTKw" name="Concursul a fost creat!" receiveEvent="_OPMP0lqzEem2CfQ3IBuTKw" sendEvent="_OPMP0VqzEem2CfQ3IBuTKw"/>
+    <message xmi:type="uml:Message" xmi:id="_OPyswFqzEem2CfQ3IBuTKw" name="Publicare nou concurs!" messageSort="reply" receiveEvent="_OPyswlqzEem2CfQ3IBuTKw" sendEvent="_OPyswVqzEem2CfQ3IBuTKw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_YZg2IFqwEem2CfQ3IBuTKw" name="Activity11" node="_bK0gIFqwEem2CfQ3IBuTKw _jbGUVlqwEem2CfQ3IBuTKw _j4LR5lqwEem2CfQ3IBuTKw _p31KUFq0Eem2CfQ3IBuTKw _rDRCsFq0Eem2CfQ3IBuTKw _r6GkEFq0Eem2CfQ3IBuTKw _swCtkFq0Eem2CfQ3IBuTKw _uLQuYFq0Eem2CfQ3IBuTKw _yIG-cFq0Eem2CfQ3IBuTKw _zkVr4Fq0Eem2CfQ3IBuTKw _1BZfwFq0Eem2CfQ3IBuTKw" group="_flmFgFq0Eem2CfQ3IBuTKw _flmFgVq0Eem2CfQ3IBuTKw _flmFglq0Eem2CfQ3IBuTKw">
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_bKhlMFqwEem2CfQ3IBuTKw" name="adaugareConcurs" node="_bKhlPlqwEem2CfQ3IBuTKw _bKhlP1qwEem2CfQ3IBuTKw _bKhlQFqwEem2CfQ3IBuTKw _bKhlQVqwEem2CfQ3IBuTKw _bKhlQlqwEem2CfQ3IBuTKw _bKhlQ1qwEem2CfQ3IBuTKw _bKhlRFqwEem2CfQ3IBuTKw _bKhlRVqwEem2CfQ3IBuTKw" group="_bKhlMVqwEem2CfQ3IBuTKw _bKhlMlqwEem2CfQ3IBuTKw _bKhlM1qwEem2CfQ3IBuTKw">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bKhlNFqwEem2CfQ3IBuTKw" target="_bKhlQFqwEem2CfQ3IBuTKw" source="_bKhlPlqwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bKhlNVqwEem2CfQ3IBuTKw" target="_bKhlP1qwEem2CfQ3IBuTKw" source="_bKhlQFqwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bKhlNlqwEem2CfQ3IBuTKw" target="_bKhlQVqwEem2CfQ3IBuTKw" source="_bKhlP1qwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bKhlN1qwEem2CfQ3IBuTKw" target="_bKhlQ1qwEem2CfQ3IBuTKw" source="_bKhlQVqwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bKhlOFqwEem2CfQ3IBuTKw" target="_bKhlQlqwEem2CfQ3IBuTKw" source="_bKhlQ1qwEem2CfQ3IBuTKw">
+        <guard xmi:type="uml:OpaqueExpression" xmi:id="_bKhlOVqwEem2CfQ3IBuTKw">
+          <language>Natural language</language>
+          <body>date completate valide</body>
+        </guard>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bKhlOlqwEem2CfQ3IBuTKw" target="_bKhlQFqwEem2CfQ3IBuTKw" source="_bKhlQ1qwEem2CfQ3IBuTKw">
+        <guard xmi:type="uml:OpaqueExpression" xmi:id="_bKhlO1qwEem2CfQ3IBuTKw">
+          <language>Natural language</language>
+          <body>date completate invalide</body>
+        </guard>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bKhlPFqwEem2CfQ3IBuTKw" target="_bKhlRFqwEem2CfQ3IBuTKw" source="_bKhlQlqwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bKhlPVqwEem2CfQ3IBuTKw" target="_bKhlRVqwEem2CfQ3IBuTKw" source="_bKhlRFqwEem2CfQ3IBuTKw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_bKhlMVqwEem2CfQ3IBuTKw" name="Administrator" visibility="private" node="_bKhlPlqwEem2CfQ3IBuTKw _bKhlP1qwEem2CfQ3IBuTKw _bKhlQFqwEem2CfQ3IBuTKw _bKhlRFqwEem2CfQ3IBuTKw _bKhlRVqwEem2CfQ3IBuTKw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_bKhlMlqwEem2CfQ3IBuTKw" name="Management concursuri" node="_bKhlQVqwEem2CfQ3IBuTKw _bKhlQ1qwEem2CfQ3IBuTKw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_bKhlM1qwEem2CfQ3IBuTKw" name="Sistem" node="_bKhlQlqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_bKhlPlqwEem2CfQ3IBuTKw" outgoing="_bKhlNFqwEem2CfQ3IBuTKw" inPartition="_bKhlMVqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_bKhlP1qwEem2CfQ3IBuTKw" name="Completare date concurs" incoming="_bKhlNVqwEem2CfQ3IBuTKw" outgoing="_bKhlNlqwEem2CfQ3IBuTKw" inPartition="_bKhlMVqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_bKhlQFqwEem2CfQ3IBuTKw" incoming="_bKhlNFqwEem2CfQ3IBuTKw _bKhlOlqwEem2CfQ3IBuTKw" outgoing="_bKhlNVqwEem2CfQ3IBuTKw" inPartition="_bKhlMVqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_bKhlQVqwEem2CfQ3IBuTKw" name="Validare date completare" incoming="_bKhlNlqwEem2CfQ3IBuTKw" outgoing="_bKhlN1qwEem2CfQ3IBuTKw" inPartition="_bKhlMlqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_bKhlQlqwEem2CfQ3IBuTKw" name="Adaugare premii in sistem" incoming="_bKhlOFqwEem2CfQ3IBuTKw" outgoing="_bKhlPFqwEem2CfQ3IBuTKw" inPartition="_bKhlM1qwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_bKhlQ1qwEem2CfQ3IBuTKw" incoming="_bKhlN1qwEem2CfQ3IBuTKw" outgoing="_bKhlOFqwEem2CfQ3IBuTKw _bKhlOlqwEem2CfQ3IBuTKw" inPartition="_bKhlMlqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_bKhlRFqwEem2CfQ3IBuTKw" name="Anuntare oficiala concurs" incoming="_bKhlPFqwEem2CfQ3IBuTKw" outgoing="_bKhlPVqwEem2CfQ3IBuTKw" inPartition="_bKhlMVqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_bKhlRVqwEem2CfQ3IBuTKw" incoming="_bKhlPVqwEem2CfQ3IBuTKw" inPartition="_bKhlMVqwEem2CfQ3IBuTKw"/>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_jbGUQFqwEem2CfQ3IBuTKw" name="CopyOf_adaugareConcurs_2" node="_jbGUTlqwEem2CfQ3IBuTKw _jbGUT1qwEem2CfQ3IBuTKw _jbGUUFqwEem2CfQ3IBuTKw _jbGUUVqwEem2CfQ3IBuTKw _jbGUUlqwEem2CfQ3IBuTKw _jbGUU1qwEem2CfQ3IBuTKw _jbGUVFqwEem2CfQ3IBuTKw _jbGUVVqwEem2CfQ3IBuTKw" group="_jbGUQVqwEem2CfQ3IBuTKw _jbGUQlqwEem2CfQ3IBuTKw _jbGUQ1qwEem2CfQ3IBuTKw">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_jbGURFqwEem2CfQ3IBuTKw" target="_jbGUUFqwEem2CfQ3IBuTKw" source="_jbGUTlqwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_jbGURVqwEem2CfQ3IBuTKw" target="_jbGUT1qwEem2CfQ3IBuTKw" source="_jbGUUFqwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_jbGURlqwEem2CfQ3IBuTKw" target="_jbGUUVqwEem2CfQ3IBuTKw" source="_jbGUT1qwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_jbGUR1qwEem2CfQ3IBuTKw" target="_jbGUU1qwEem2CfQ3IBuTKw" source="_jbGUUVqwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_jbGUSFqwEem2CfQ3IBuTKw" target="_jbGUUlqwEem2CfQ3IBuTKw" source="_jbGUU1qwEem2CfQ3IBuTKw">
+        <guard xmi:type="uml:OpaqueExpression" xmi:id="_jbGUSVqwEem2CfQ3IBuTKw">
+          <language>Natural language</language>
+          <body>date completate valide</body>
+        </guard>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_jbGUSlqwEem2CfQ3IBuTKw" target="_jbGUUFqwEem2CfQ3IBuTKw" source="_jbGUU1qwEem2CfQ3IBuTKw">
+        <guard xmi:type="uml:OpaqueExpression" xmi:id="_jbGUS1qwEem2CfQ3IBuTKw">
+          <language>Natural language</language>
+          <body>date completate invalide</body>
+        </guard>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_jbGUTFqwEem2CfQ3IBuTKw" target="_jbGUVFqwEem2CfQ3IBuTKw" source="_jbGUUlqwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_jbGUTVqwEem2CfQ3IBuTKw" target="_jbGUVVqwEem2CfQ3IBuTKw" source="_jbGUVFqwEem2CfQ3IBuTKw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_jbGUQVqwEem2CfQ3IBuTKw" name="Administrator" visibility="private" node="_jbGUTlqwEem2CfQ3IBuTKw _jbGUT1qwEem2CfQ3IBuTKw _jbGUUFqwEem2CfQ3IBuTKw _jbGUVFqwEem2CfQ3IBuTKw _jbGUVVqwEem2CfQ3IBuTKw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_jbGUQlqwEem2CfQ3IBuTKw" name="Management concursuri" node="_jbGUUVqwEem2CfQ3IBuTKw _jbGUU1qwEem2CfQ3IBuTKw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_jbGUQ1qwEem2CfQ3IBuTKw" name="Sistem" node="_jbGUUlqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_jbGUTlqwEem2CfQ3IBuTKw" outgoing="_jbGURFqwEem2CfQ3IBuTKw" inPartition="_jbGUQVqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_jbGUT1qwEem2CfQ3IBuTKw" name="Completare date concurs" incoming="_jbGURVqwEem2CfQ3IBuTKw" outgoing="_jbGURlqwEem2CfQ3IBuTKw" inPartition="_jbGUQVqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_jbGUUFqwEem2CfQ3IBuTKw" incoming="_jbGURFqwEem2CfQ3IBuTKw _jbGUSlqwEem2CfQ3IBuTKw" outgoing="_jbGURVqwEem2CfQ3IBuTKw" inPartition="_jbGUQVqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_jbGUUVqwEem2CfQ3IBuTKw" name="Validare date completare" incoming="_jbGURlqwEem2CfQ3IBuTKw" outgoing="_jbGUR1qwEem2CfQ3IBuTKw" inPartition="_jbGUQlqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_jbGUUlqwEem2CfQ3IBuTKw" name="Adaugare premii in sistem" incoming="_jbGUSFqwEem2CfQ3IBuTKw" outgoing="_jbGUTFqwEem2CfQ3IBuTKw" inPartition="_jbGUQ1qwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_jbGUU1qwEem2CfQ3IBuTKw" incoming="_jbGUR1qwEem2CfQ3IBuTKw" outgoing="_jbGUSFqwEem2CfQ3IBuTKw _jbGUSlqwEem2CfQ3IBuTKw" inPartition="_jbGUQlqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_jbGUVFqwEem2CfQ3IBuTKw" name="Anuntare oficiala concurs" incoming="_jbGUTFqwEem2CfQ3IBuTKw" outgoing="_jbGUTVqwEem2CfQ3IBuTKw" inPartition="_jbGUQVqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_jbGUVVqwEem2CfQ3IBuTKw" incoming="_jbGUTVqwEem2CfQ3IBuTKw" inPartition="_jbGUQVqwEem2CfQ3IBuTKw"/>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_j4LR0FqwEem2CfQ3IBuTKw" name="CopyOf_adaugareConcurs_4" node="_j4LR3lqwEem2CfQ3IBuTKw _j4LR31qwEem2CfQ3IBuTKw _j4LR4FqwEem2CfQ3IBuTKw _j4LR4VqwEem2CfQ3IBuTKw _j4LR4lqwEem2CfQ3IBuTKw _j4LR41qwEem2CfQ3IBuTKw _j4LR5FqwEem2CfQ3IBuTKw _j4LR5VqwEem2CfQ3IBuTKw" group="_j4LR0VqwEem2CfQ3IBuTKw _j4LR0lqwEem2CfQ3IBuTKw _j4LR01qwEem2CfQ3IBuTKw">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_j4LR1FqwEem2CfQ3IBuTKw" target="_j4LR4FqwEem2CfQ3IBuTKw" source="_j4LR3lqwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_j4LR1VqwEem2CfQ3IBuTKw" target="_j4LR31qwEem2CfQ3IBuTKw" source="_j4LR4FqwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_j4LR1lqwEem2CfQ3IBuTKw" target="_j4LR4VqwEem2CfQ3IBuTKw" source="_j4LR31qwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_j4LR11qwEem2CfQ3IBuTKw" target="_j4LR41qwEem2CfQ3IBuTKw" source="_j4LR4VqwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_j4LR2FqwEem2CfQ3IBuTKw" target="_j4LR4lqwEem2CfQ3IBuTKw" source="_j4LR41qwEem2CfQ3IBuTKw">
+        <guard xmi:type="uml:OpaqueExpression" xmi:id="_j4LR2VqwEem2CfQ3IBuTKw">
+          <language>Natural language</language>
+          <body>date completate valide</body>
+        </guard>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_j4LR2lqwEem2CfQ3IBuTKw" target="_j4LR4FqwEem2CfQ3IBuTKw" source="_j4LR41qwEem2CfQ3IBuTKw">
+        <guard xmi:type="uml:OpaqueExpression" xmi:id="_j4LR21qwEem2CfQ3IBuTKw">
+          <language>Natural language</language>
+          <body>date completate invalide</body>
+        </guard>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_j4LR3FqwEem2CfQ3IBuTKw" target="_j4LR5FqwEem2CfQ3IBuTKw" source="_j4LR4lqwEem2CfQ3IBuTKw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_j4LR3VqwEem2CfQ3IBuTKw" target="_j4LR5VqwEem2CfQ3IBuTKw" source="_j4LR5FqwEem2CfQ3IBuTKw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_j4LR0VqwEem2CfQ3IBuTKw" name="Administrator" visibility="private" node="_j4LR3lqwEem2CfQ3IBuTKw _j4LR31qwEem2CfQ3IBuTKw _j4LR4FqwEem2CfQ3IBuTKw _j4LR5FqwEem2CfQ3IBuTKw _j4LR5VqwEem2CfQ3IBuTKw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_j4LR0lqwEem2CfQ3IBuTKw" name="Management concursuri" node="_j4LR4VqwEem2CfQ3IBuTKw _j4LR41qwEem2CfQ3IBuTKw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_j4LR01qwEem2CfQ3IBuTKw" name="Sistem" node="_j4LR4lqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_j4LR3lqwEem2CfQ3IBuTKw" outgoing="_j4LR1FqwEem2CfQ3IBuTKw" inPartition="_j4LR0VqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_j4LR31qwEem2CfQ3IBuTKw" name="Completare date concurs" incoming="_j4LR1VqwEem2CfQ3IBuTKw" outgoing="_j4LR1lqwEem2CfQ3IBuTKw" inPartition="_j4LR0VqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_j4LR4FqwEem2CfQ3IBuTKw" incoming="_j4LR1FqwEem2CfQ3IBuTKw _j4LR2lqwEem2CfQ3IBuTKw" outgoing="_j4LR1VqwEem2CfQ3IBuTKw" inPartition="_j4LR0VqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_j4LR4VqwEem2CfQ3IBuTKw" name="Validare date completare" incoming="_j4LR1lqwEem2CfQ3IBuTKw" outgoing="_j4LR11qwEem2CfQ3IBuTKw" inPartition="_j4LR0lqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_j4LR4lqwEem2CfQ3IBuTKw" name="Adaugare premii in sistem" incoming="_j4LR2FqwEem2CfQ3IBuTKw" outgoing="_j4LR3FqwEem2CfQ3IBuTKw" inPartition="_j4LR01qwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_j4LR41qwEem2CfQ3IBuTKw" incoming="_j4LR11qwEem2CfQ3IBuTKw" outgoing="_j4LR2FqwEem2CfQ3IBuTKw _j4LR2lqwEem2CfQ3IBuTKw" inPartition="_j4LR0lqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_j4LR5FqwEem2CfQ3IBuTKw" name="Anuntare oficiala concurs" incoming="_j4LR3FqwEem2CfQ3IBuTKw" outgoing="_j4LR3VqwEem2CfQ3IBuTKw" inPartition="_j4LR0VqwEem2CfQ3IBuTKw"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_j4LR5VqwEem2CfQ3IBuTKw" incoming="_j4LR3VqwEem2CfQ3IBuTKw" inPartition="_j4LR0VqwEem2CfQ3IBuTKw"/>
+    </ownedBehavior>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_50pzYFq0Eem2CfQ3IBuTKw" target="_yIG-cFq0Eem2CfQ3IBuTKw" source="_p31KUFq0Eem2CfQ3IBuTKw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6s3NwFq0Eem2CfQ3IBuTKw" target="_rDRCsFq0Eem2CfQ3IBuTKw" source="_yIG-cFq0Eem2CfQ3IBuTKw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7gH2sFq0Eem2CfQ3IBuTKw" target="_r6GkEFq0Eem2CfQ3IBuTKw" source="_rDRCsFq0Eem2CfQ3IBuTKw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8olTkFq0Eem2CfQ3IBuTKw" target="_zkVr4Fq0Eem2CfQ3IBuTKw" source="_r6GkEFq0Eem2CfQ3IBuTKw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_92q3UFq0Eem2CfQ3IBuTKw" target="_yIG-cFq0Eem2CfQ3IBuTKw" source="_zkVr4Fq0Eem2CfQ3IBuTKw">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_B81bcFq1Eem2CfQ3IBuTKw">
+        <language>Natural language</language>
+        <body>date completate invalide</body>
+      </guard>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Cz93wFq1Eem2CfQ3IBuTKw" target="_1BZfwFq0Eem2CfQ3IBuTKw" source="_zkVr4Fq0Eem2CfQ3IBuTKw">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_GSa7oFq1Eem2CfQ3IBuTKw">
+        <language>Natural language</language>
+        <body>date completate valide</body>
+      </guard>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Ima-kFq1Eem2CfQ3IBuTKw" target="_swCtkFq0Eem2CfQ3IBuTKw" source="_1BZfwFq0Eem2CfQ3IBuTKw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JV9lIFq1Eem2CfQ3IBuTKw" target="_uLQuYFq0Eem2CfQ3IBuTKw" source="_swCtkFq0Eem2CfQ3IBuTKw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_flmFgFq0Eem2CfQ3IBuTKw" name="Administrator" visibility="private" node="_p31KUFq0Eem2CfQ3IBuTKw _rDRCsFq0Eem2CfQ3IBuTKw _swCtkFq0Eem2CfQ3IBuTKw _uLQuYFq0Eem2CfQ3IBuTKw _yIG-cFq0Eem2CfQ3IBuTKw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_flmFgVq0Eem2CfQ3IBuTKw" name="Sistem" node="_1BZfwFq0Eem2CfQ3IBuTKw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_flmFglq0Eem2CfQ3IBuTKw" name="Management concursuri" node="_r6GkEFq0Eem2CfQ3IBuTKw _zkVr4Fq0Eem2CfQ3IBuTKw"/>
+    <node xmi:type="uml:CallBehaviorAction" xmi:id="_bK0gIFqwEem2CfQ3IBuTKw" name="CallBehaviorAction2" behavior="_bKhlMFqwEem2CfQ3IBuTKw"/>
+    <node xmi:type="uml:CallBehaviorAction" xmi:id="_jbGUVlqwEem2CfQ3IBuTKw" name="CallBehaviorAction4" behavior="_jbGUQFqwEem2CfQ3IBuTKw"/>
+    <node xmi:type="uml:CallBehaviorAction" xmi:id="_j4LR5lqwEem2CfQ3IBuTKw" name="CallBehaviorAction6" behavior="_j4LR0FqwEem2CfQ3IBuTKw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_p31KUFq0Eem2CfQ3IBuTKw" name="" outgoing="_50pzYFq0Eem2CfQ3IBuTKw" inPartition="_flmFgFq0Eem2CfQ3IBuTKw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_rDRCsFq0Eem2CfQ3IBuTKw" name="Completare date concurs" incoming="_6s3NwFq0Eem2CfQ3IBuTKw" outgoing="_7gH2sFq0Eem2CfQ3IBuTKw" inPartition="_flmFgFq0Eem2CfQ3IBuTKw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_r6GkEFq0Eem2CfQ3IBuTKw" name="Validare date completare" incoming="_7gH2sFq0Eem2CfQ3IBuTKw" outgoing="_8olTkFq0Eem2CfQ3IBuTKw" inPartition="_flmFglq0Eem2CfQ3IBuTKw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_swCtkFq0Eem2CfQ3IBuTKw" name="Anuntare oficiala concurs" incoming="_Ima-kFq1Eem2CfQ3IBuTKw" outgoing="_JV9lIFq1Eem2CfQ3IBuTKw" inPartition="_flmFgFq0Eem2CfQ3IBuTKw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_uLQuYFq0Eem2CfQ3IBuTKw" name="" incoming="_JV9lIFq1Eem2CfQ3IBuTKw" inPartition="_flmFgFq0Eem2CfQ3IBuTKw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_yIG-cFq0Eem2CfQ3IBuTKw" name="" incoming="_50pzYFq0Eem2CfQ3IBuTKw _92q3UFq0Eem2CfQ3IBuTKw" outgoing="_6s3NwFq0Eem2CfQ3IBuTKw" inPartition="_flmFgFq0Eem2CfQ3IBuTKw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_zkVr4Fq0Eem2CfQ3IBuTKw" name="" incoming="_8olTkFq0Eem2CfQ3IBuTKw" outgoing="_92q3UFq0Eem2CfQ3IBuTKw _Cz93wFq1Eem2CfQ3IBuTKw" inPartition="_flmFglq0Eem2CfQ3IBuTKw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1BZfwFq0Eem2CfQ3IBuTKw" name="Adaugare premii in sistem" incoming="_Cz93wFq1Eem2CfQ3IBuTKw" outgoing="_Ima-kFq1Eem2CfQ3IBuTKw" inPartition="_flmFgVq0Eem2CfQ3IBuTKw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_24m10FqwEem2CfQ3IBuTKw" name="Administrator">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6DxxU1qwEem2CfQ3IBuTKw" name="concurs" type="_b6WOAFbeEemwX6UL-JQQCg" association="_6DxxUFqwEem2CfQ3IBuTKw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6DxxVFqwEem2CfQ3IBuTKw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6DxxVVqwEem2CfQ3IBuTKw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IsAmAFqxEem2CfQ3IBuTKw" name="nume" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6DxxUFqwEem2CfQ3IBuTKw" memberEnd="_6DxxU1qwEem2CfQ3IBuTKw _6DxxVlqwEem2CfQ3IBuTKw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6DxxUVqwEem2CfQ3IBuTKw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6DxxUlqwEem2CfQ3IBuTKw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6DxxVlqwEem2CfQ3IBuTKw" name="administrator" type="_24m10FqwEem2CfQ3IBuTKw" association="_6DxxUFqwEem2CfQ3IBuTKw"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_n8bf0FbeEemwX6UL-JQQCg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n8ct8FbeEemwX6UL-JQQCg" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
