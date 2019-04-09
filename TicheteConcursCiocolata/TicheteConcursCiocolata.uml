@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_GN2ccFbKEemwX6UL-JQQCg" name="TicheteConcursCiocolata" visibility="public">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_GYhbYFbKEemwX6UL-JQQCg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1AK_wFbaEemwX6UL-JQQCg" name="Categorie" visibility="public">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DqISwFbbEemwX6UL-JQQCg" name="nume" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_65ElcFbdEemwX6UL-JQQCg" name="premii" type="_4JLYEFbaEemwX6UL-JQQCg" aggregation="composite" association="_65BiIFbdEemwX6UL-JQQCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_65ElcVbdEemwX6UL-JQQCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_65ElclbdEemwX6UL-JQQCg" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4JLYEFbaEemwX6UL-JQQCg" name="Premiu">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mXRnQFbbEemwX6UL-JQQCg" name="nume" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pBOFAFbbEemwX6UL-JQQCg" name="dataExtragere" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tZDA4FbbEemwX6UL-JQQCg" name="oraExtragere" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_y1QK4FbbEemwX6UL-JQQCg" name="codCastigator" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KPTTIFbfEemwX6UL-JQQCg" name="extragereCodCastigator"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4aTkUFbaEemwX6UL-JQQCg" name="Participant">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2T9tcFbbEemwX6UL-JQQCg" name="nume" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2n6kMFbbEemwX6UL-JQQCg" name="telefon" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3SqxYFbbEemwX6UL-JQQCg" name="coduriIntroduse" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CHtBQFbcEemwX6UL-JQQCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CHxSsFbcEemwX6UL-JQQCg" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_GbiGkFbfEemwX6UL-JQQCg" name="adaugareCod" concurrency="concurrent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_65BiIFbdEemwX6UL-JQQCg" memberEnd="_65ElcFbdEemwX6UL-JQQCg _65FMgFbdEemwX6UL-JQQCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_65CwQFbdEemwX6UL-JQQCg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_65DXUFbdEemwX6UL-JQQCg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_65FMgFbdEemwX6UL-JQQCg" name="categorie" type="_1AK_wFbaEemwX6UL-JQQCg" association="_65BiIFbdEemwX6UL-JQQCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NCoL0FbeEemwX6UL-JQQCg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NC5RkFbeEemwX6UL-JQQCg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_b6WOAFbeEemwX6UL-JQQCg" name="Concurs">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fcRcoFbeEemwX6UL-JQQCg" name="numeConcurs" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_r2loQFbeEemwX6UL-JQQCg" name="categorii" type="_1AK_wFbaEemwX6UL-JQQCg" aggregation="composite" association="_r2kaIFbeEemwX6UL-JQQCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r2m2YFbeEemwX6UL-JQQCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r2orkFbeEemwX6UL-JQQCg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sb5UwVbeEemwX6UL-JQQCg" name="participanti" type="_4aTkUFbaEemwX6UL-JQQCg" aggregation="composite" association="_sb4tsFbeEemwX6UL-JQQCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sb5UwlbeEemwX6UL-JQQCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sb5Uw1beEemwX6UL-JQQCg" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r2kaIFbeEemwX6UL-JQQCg" memberEnd="_r2loQFbeEemwX6UL-JQQCg _r2qgwFbeEemwX6UL-JQQCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r2lBMFbeEemwX6UL-JQQCg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r2lBMVbeEemwX6UL-JQQCg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r2qgwFbeEemwX6UL-JQQCg" name="concurs" type="_b6WOAFbeEemwX6UL-JQQCg" association="_r2kaIFbeEemwX6UL-JQQCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wDUHYFbeEemwX6UL-JQQCg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wDYY0FbeEemwX6UL-JQQCg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sb4tsFbeEemwX6UL-JQQCg" visibility="protected" memberEnd="_sb5UwVbeEemwX6UL-JQQCg _sb570FbeEemwX6UL-JQQCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sb4tsVbeEemwX6UL-JQQCg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sb5UwFbeEemwX6UL-JQQCg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sb570FbeEemwX6UL-JQQCg" name="concurs" type="_b6WOAFbeEemwX6UL-JQQCg" association="_sb4tsFbeEemwX6UL-JQQCg"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_n8bf0FbeEemwX6UL-JQQCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n8ct8FbeEemwX6UL-JQQCg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
