@@ -17,6 +17,14 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1AfI1FbaEemwX6UL-JQQCg"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_1AfI1VbaEemwX6UL-JQQCg" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_5atkYHDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_5ah-MHDkEemI2d0SRfDfMg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_5atkYXDkEemI2d0SRfDfMg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_5lLvAHDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_5k-6sHDkEemI2d0SRfDfMg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_5lLvAXDkEemI2d0SRfDfMg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_1AfI1lbaEemwX6UL-JQQCg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_1AfI11baEemwX6UL-JQQCg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_1AfI2FbaEemwX6UL-JQQCg"/>
@@ -63,6 +71,10 @@
           <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_KPTTIFbfEemwX6UL-JQQCg"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_KPdEIVbfEemwX6UL-JQQCg"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_6OGwMHDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_6N4twHDkEemI2d0SRfDfMg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_6OGwMXDkEemI2d0SRfDfMg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_4JN0WVbaEemwX6UL-JQQCg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_4JN0WlbaEemwX6UL-JQQCg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_4JN0W1baEemwX6UL-JQQCg"/>
@@ -105,6 +117,18 @@
           <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_GbiGkFbfEemwX6UL-JQQCg"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_GbqpcVbfEemwX6UL-JQQCg"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_4DUToHDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_4DGRMHDkEemI2d0SRfDfMg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_4DUToXDkEemI2d0SRfDfMg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_4Wl08HDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_4WZAoHDkEemI2d0SRfDfMg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_4Wl08XDkEemI2d0SRfDfMg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_4mHesHDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_4l5cQHDkEemI2d0SRfDfMg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_4mHesXDkEemI2d0SRfDfMg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_4aVZiVbaEemwX6UL-JQQCg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_4aVZilbaEemwX6UL-JQQCg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_4aVZi1baEemwX6UL-JQQCg"/>
@@ -135,6 +159,14 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b6XcKVbeEemwX6UL-JQQCg"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_b6XcKlbeEemwX6UL-JQQCg" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_2h3H8HDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_2hq6sHDkEemI2d0SRfDfMg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2h3H8XDkEemI2d0SRfDfMg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2w2mMHDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_2wnVoHDkEemI2d0SRfDfMg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2w2mMXDkEemI2d0SRfDfMg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_b6XcK1beEemwX6UL-JQQCg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_b6XcLFbeEemwX6UL-JQQCg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_b6XcLVbeEemwX6UL-JQQCg"/>
@@ -165,6 +197,18 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_24m12lqwEem2CfQ3IBuTKw"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_24m121qwEem2CfQ3IBuTKw" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_0-MVwHDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_09ubsHDkEemI2d0SRfDfMg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_0-MVwXDkEemI2d0SRfDfMg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_1WT60HDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_1WGfcHDkEemI2d0SRfDfMg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_1WT60XDkEemI2d0SRfDfMg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_1nNdkHDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_1nB3YHDkEemI2d0SRfDfMg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_1nNdkXDkEemI2d0SRfDfMg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_24m13FqwEem2CfQ3IBuTKw"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_24m13VqwEem2CfQ3IBuTKw"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_24m13lqwEem2CfQ3IBuTKw"/>
@@ -179,7 +223,7 @@
       <element xmi:type="uml:Class" href="TicheteConcursCiocolata.uml#_24m10FqwEem2CfQ3IBuTKw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_24m10lqwEem2CfQ3IBuTKw" x="180" y="-40"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_M8EA4VbKEemwX6UL-JQQCg" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_M8EA4VbKEemwX6UL-JQQCg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_M8EA4lbKEemwX6UL-JQQCg"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_M8EA41bKEemwX6UL-JQQCg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
       <owner xmi:type="uml:Model" href="TicheteConcursCiocolata.uml#_GN2ccFbKEemwX6UL-JQQCg"/>
@@ -958,7 +1002,7 @@
       <element xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_bKhlMFqwEem2CfQ3IBuTKw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bK0go1qwEem2CfQ3IBuTKw"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_bK0gpFqwEem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_bK0gpFqwEem2CfQ3IBuTKw" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_bK0gpVqwEem2CfQ3IBuTKw"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_bK0gplqwEem2CfQ3IBuTKw" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
       <owner xmi:type="uml:Activity" href="TicheteConcursCiocolata.uml#_bKhlMFqwEem2CfQ3IBuTKw"/>
