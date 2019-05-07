@@ -23,96 +23,178 @@ public class Administrator {
 	/**
 	 * 
 	 */
-	public   void adaugareConcursNou() {
+	public void adaugareConcursNou() {
+		boolean valide = true;
 		Scanner scan = new Scanner(System.in);
-		
-		System.out.println ("  Scrie un nume pentru concurs" ); 
+		//athis.concurs = new Concurs[]
+		System.out.println("  Scrie un nume pentru concurs");
 		String nume = scan.nextLine();
-		
-		System.out.println ("  Numar premii pentru categoria 1" ); 
+
+		System.out.println("  Numar premii pentru categoria 1");
 		int nrPremii1 = scan.nextInt();
-		
+		scan.nextLine();
+
+		System.out.println(nrPremii1);
+
 		Premiu[] p = new Premiu[nrPremii1];
 		Categorie[] c = new Categorie[3];
-		
-		for ( int i = 0; i < nrPremii1; i++) {
-			
-			System.out.println("Introduceti numePremiu pentru categ 1");
+
+		for (int i = 0; i < nrPremii1; i++) {
+			valide = true;
+			System.out.println("Introduceti numele premiului " + (i + 1) + " din categoria 1");
 			String numePremiu = scan.nextLine();
+
 			System.out.println("Ati introdus " + numePremiu);
+
 			System.out.println("Introduceti dataExtragere");
 			String dataExtr = scan.nextLine();
+
 			System.out.println("Introduceti oraExtragere");
 			int oraExtr = scan.nextInt();
+			scan.nextLine();
+
 			System.out.println("Introduceti codCastigator");
 			String codCastigator = scan.nextLine();
-			p[i] = new Premiu(numePremiu, dataExtr, oraExtr, codCastigator);
-			
-			
+
+			if (oraExtr > 24 || oraExtr < 0) {
+				System.out.println("Ora invalida");
+				valide = false;
+			}
+			if (valide) {
+				p[i] = new Premiu(numePremiu, dataExtr, oraExtr, codCastigator);
+			} else {
+				i--;
+			}
+
 		}
 		c[0] = new Categorie(" Categorie 1", p);
-		
-		
-		
-		System.out.println ("  Numar premii pentru categoria 2" ); 
+
+		System.out.println("  Numar premii pentru categoria 2");
 		int nrPremii2 = scan.nextInt();
+		scan.nextLine();
+
 		Premiu[] p2 = new Premiu[nrPremii2];
-		
-		for ( int i = 0; i < nrPremii2; i++) {
-			System.out.println("Introduceti nume");
+
+		for (int i = 0; i < nrPremii2; i++) {
+			valide = true;
+			System.out.println("Introduceti numele premiului " + (i + 1) + " din categoria 2");
 			String numePremiu2 = scan.nextLine();
 			System.out.println("Introduceti dataExtragere");
 			String dataExtr2 = scan.nextLine();
 			System.out.println("Introduceti oraExtragere");
 			int oraExtr2 = scan.nextInt();
+			scan.nextLine();
+
 			System.out.println("Introduceti codCastigator");
 			String codCastigator2 = scan.nextLine();
-			p2[i] = new Premiu(numePremiu2, dataExtr2, oraExtr2, codCastigator2);
-			
-			
+
+			if (oraExtr2 > 24 || oraExtr2 < 0) {
+				System.out.println("Ora invalida");
+				valide = false;
+			}
+			if (valide) {
+				p2[i] = new Premiu(numePremiu2, dataExtr2, oraExtr2, codCastigator2);
+			} else {
+				i--;
+			}
+
 		}
 		c[1] = new Categorie(" Categorie 2", p2);
-		
-		System.out.println ("  Numar premii pentru categoria 3" );  
+
+		System.out.println("  Numar premii pentru categoria 3");
 		int nrPremii3 = scan.nextInt();
+		scan.nextLine();
+
 		Premiu[] p3 = new Premiu[nrPremii3];
-		
-		for ( int i = 0; i < nrPremii3; i++) {
-			System.out.println("Introduceti nume");
+
+		for (int i = 0; i < nrPremii3; i++) {
+
+			valide = true;
+			System.out.println("Introduceti numele premiului " + (i + 1) + " din categoria 3");
 			String numePremiu3 = scan.nextLine();
-			System.out.println("Introduceti dataExtragere");
+			System.out.println("Introduceti data extragere");
 			String dataExtr3 = scan.nextLine();
-			System.out.println("Introduceti oraExtragere");
+			System.out.println("Introduceti ora extragere");
 			int oraExtr3 = scan.nextInt();
-			System.out.println("Introduceti codCastigator");
+			scan.nextLine();
+
+			System.out.println("Introduceti cod castigator");
 			String codCastigator3 = scan.nextLine();
-			p3[i] = new Premiu(numePremiu3, dataExtr3, oraExtr3, codCastigator3);
-			
-			
+
+			if (oraExtr3 > 24 || oraExtr3 < 0) {
+				System.out.println("Ora invalida");
+				valide = false;
+			}
+			if (valide) {
+				p3[i] = new Premiu(numePremiu3, dataExtr3, oraExtr3, codCastigator3);
+				
+			} else {
+		
+				i--;
+			}
+
 		}
 		c[2] = new Categorie(" Categorie 3", p3);
-		
-		this.concurs = ArrayHelper.push(this.concurs, new Concurs(nume, c));
-		
+		Concurs concursNou = new Concurs(nume, c);
+		this.concurs = ArrayHelper.push(this.concurs, concursNou);
+		System.out.println("valideeeeeeeeeeeezzzzzzzz");
+		concursNou.validareOraData();
+
 	}
 
 	/**
 	 * 
 	 */
 	public void stergereConcurs() {
+		Scanner scan = new Scanner(System.in);
+		int indexToRemove = -1;
+		String nume;
+		System.out.println("Introduceti numele concursului: ");
+		nume = scan.nextLine();
+		System.out.println("Se sterge concursul " + nume);
+		for(int i = 0; i< this.concurs.length; i++) {
+			if(nume.equals(this.concurs[i].getNumeConcurs())) {
+				indexToRemove = i;
+			}
+		}
+		this.concurs = ArrayHelper.removeTheElement(this.concurs, indexToRemove);
 	}
 
 	/**
 	 * 
 	 */
 	public void anuntareConcurs() {
+		Scanner scan = new Scanner(System.in);
+		String nume;
+		System.out.println("Introduceti numele concursului: ");
+		nume = scan.nextLine();
+		System.out.println("Au fost trimise emailuri catre departamentele implicate.\n Felicitari! Concursul " + nume + " tocmai a fost lansat!");;
 	}
 
 	public void afisareConcurs() {
-
+		for( int i =0; i< this.concurs.length; i++) {
+			System.out.println("Numele concursului: " + this.concurs[i].getNumeConcurs());
+			System.out.println("Numele categoriilor: ");
+			System.out.println(this.concurs[i].categorii[0].getNume());
+			System.out.println(this.concurs[i].categorii[1].getNume());
+			System.out.println(this.concurs[i].categorii[2].getNume());
+			
+			for(int k=0; k<3; k++) {
+				System.out.println("Premiile categoriei " + k + ": ");
+				for( int j = 0; j < this.concurs[j].categorii[k].premii.length; j++) {
+					this.concurs[j].categorii[k].premii[j].afisare();
+				}
+			}
+			
+		}
 	}
-	public Administrator() {}
-	
+
+	public Administrator() {
+		
+		this.concurs = new Concurs[0];
+		this.nume = "admin";
+	}
+
 	public Administrator(String nume) {
 		this.concurs = new Concurs[0];
 		this.nume = nume;
@@ -133,5 +215,6 @@ public class Administrator {
 	public void setNume(String nume) {
 		this.nume = nume;
 	}
+	
 
 };

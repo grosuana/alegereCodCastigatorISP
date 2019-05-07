@@ -64,6 +64,60 @@ public class Concurs {
 		
 	}
 
+	/*ANA GROSU: FUNCTII PENTRU VERIFICARE ADAUGARE CONCURS*/
 	
+	public boolean verificareNumeConcurs() {
 
+		if (this.numeConcurs.equals("")) {
+			return false;
+		};
+		if (this.numeConcurs.length() > 30) {
+			return false;
+		};
+		return true;
+	}
+	
+	public boolean verificareExistentaPremii() {
+		if (this.categorii[0].premii.length == 0) {
+			return false;
+		};
+		if (this.categorii[1].premii.length == 0) {
+			return false;
+		};
+		if (this.categorii[2].premii.length == 0) {
+			return false;
+		};
+		return true;
+	}
+	
+	public boolean verificareExistentaDataExtragere() {
+		for(int i = 0; i < 3; i ++) {
+			for (int j = 0; j < this.categorii[i].premii.length; j++) {
+				if (this.categorii[i].premii[j].getDataExtragere().equals("")) {
+					return false;
+				};
+			}
+		}
+		return true;
+	}
+	
+	public boolean validareOraData() {
+		for(int i = 0; i < 3; i ++) {
+			for (int j = 0; j < this.categorii[i].premii.length; j++) {
+				int ora = this.categorii[i].premii[j].getOraExtragere();
+				String data = this.categorii[i].premii[j].getDataExtragere();
+				
+				if(ora<0 || ora > 24) return false;
+				
+				int zi = Integer.parseInt( data.split("\\.")[0]);
+				int luna = Integer.parseInt( data.split("\\.")[1]);
+				
+				if(zi<1 || zi > 31) return false;
+				if(luna<1 || luna > 12) return false;
+				
+				};
+			}
+		return true;
+	}
+	/* FINAL FUNCTII PENTRU VERIFICARE CONCURS*/
 };

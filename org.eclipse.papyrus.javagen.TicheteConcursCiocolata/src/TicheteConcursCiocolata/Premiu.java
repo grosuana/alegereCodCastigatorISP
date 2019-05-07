@@ -9,14 +9,19 @@ package TicheteConcursCiocolata;
  * 
  */
 public class Premiu {
-	/**
-	 * 
-	 */
+
 	private String nume;
 	private String dataExtragere;
 	private int oraExtragere;
 	private String codCastigator;
-
+	
+	public void afisare() {
+		System.out.println("\tNume premiu: " +  this.nume);
+		System.out.println("\tData extragere: " +  this.dataExtragere);
+		System.out.println("\tOra extragere: " +  this.oraExtragere);
+		System.out.println("\tCod castigator: " +  this.codCastigator);
+	}
+	
 	public String getNume() {
 		return nume;
 	}
@@ -28,7 +33,7 @@ public class Premiu {
 	public String getDataExtragere() {
 		return dataExtragere;
 	}
-
+	
 	public void setDataExtragere(String dataExtragere) {
 		this.dataExtragere = dataExtragere;
 	}
@@ -65,11 +70,15 @@ public class Premiu {
 	 */
 	public void verificareCastigCod() {
 	}
-
+	
 	public Premiu() {
-		
-		
+
+		this.nume = "";
+		this.dataExtragere = "";
+		this.oraExtragere = -1;
+		this.codCastigator = "";
 	}
+	
 	public Premiu(String nume, String dataExtragere, int oraExtragere, String codCastigator) {
 		
 		this.nume = nume;

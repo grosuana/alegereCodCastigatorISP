@@ -6,12 +6,13 @@ public class Principal  extends Administrator{
 
 	public static  void main(String[] args) {
 		 
-		Administrator a1 = new Administrator();
+		Administrator a1 = new Administrator("admin");
 		String choice, choice2, choice3;
 		System.out.println("------- MENIU ------");
 		Scanner scan = new Scanner(System.in);
-		choice = scan.nextLine();
+		
 		System.out.println("Introduceti 'a' pentru administrator sau 'p' pentru participant");
+		choice = scan.nextLine();
 		while (!choice.equals("q")) {
 			switch (choice) {
 			
@@ -29,10 +30,13 @@ public class Principal  extends Administrator{
 							a1.adaugareConcursNou();
 							break;
 						case "2":
+							a1.afisareConcurs();
 							break;
 						case "3":
+							a1.stergereConcurs();
 							break;
 						case "4":
+							a1.anuntareConcurs();
 							break;
 						
 						}
