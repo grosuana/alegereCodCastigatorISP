@@ -4,6 +4,8 @@
 
 package TicheteConcursCiocolata;
 
+import java.util.Scanner;
+
 /************************************************************/
 /**
  * 
@@ -21,10 +23,79 @@ public class Administrator {
 	/**
 	 * 
 	 */
-	public void adaugareConcursNou() {
+	public   void adaugareConcursNou() {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println ("  Scrie un nume pentru concurs" ); 
+		String nume = scan.nextLine();
+		
+		System.out.println ("  Numar premii pentru categoria 1" ); 
+		int nrPremii1 = scan.nextInt();
+		
+		Premiu[] p = new Premiu[nrPremii1];
+		Categorie[] c = new Categorie[3];
+		
+		for ( int i = 0; i < nrPremii1; i++) {
+			
+			System.out.println("Introduceti numePremiu pentru categ 1");
+			String numePremiu = scan.nextLine();
+			System.out.println("Ati introdus " + numePremiu);
+			System.out.println("Introduceti dataExtragere");
+			String dataExtr = scan.nextLine();
+			System.out.println("Introduceti oraExtragere");
+			int oraExtr = scan.nextInt();
+			System.out.println("Introduceti codCastigator");
+			String codCastigator = scan.nextLine();
+			p[i] = new Premiu(numePremiu, dataExtr, oraExtr, codCastigator);
+			
+			
+		}
+		c[0] = new Categorie(" Categorie 1", p);
+		
+		
+		
+		System.out.println ("  Numar premii pentru categoria 2" ); 
+		int nrPremii2 = scan.nextInt();
+		Premiu[] p2 = new Premiu[nrPremii2];
+		
+		for ( int i = 0; i < nrPremii2; i++) {
+			System.out.println("Introduceti nume");
+			String numePremiu2 = scan.nextLine();
+			System.out.println("Introduceti dataExtragere");
+			String dataExtr2 = scan.nextLine();
+			System.out.println("Introduceti oraExtragere");
+			int oraExtr2 = scan.nextInt();
+			System.out.println("Introduceti codCastigator");
+			String codCastigator2 = scan.nextLine();
+			p2[i] = new Premiu(numePremiu2, dataExtr2, oraExtr2, codCastigator2);
+			
+			
+		}
+		c[1] = new Categorie(" Categorie 2", p2);
+		
+		System.out.println ("  Numar premii pentru categoria 3" );  
+		int nrPremii3 = scan.nextInt();
+		Premiu[] p3 = new Premiu[nrPremii3];
+		
+		for ( int i = 0; i < nrPremii3; i++) {
+			System.out.println("Introduceti nume");
+			String numePremiu3 = scan.nextLine();
+			System.out.println("Introduceti dataExtragere");
+			String dataExtr3 = scan.nextLine();
+			System.out.println("Introduceti oraExtragere");
+			int oraExtr3 = scan.nextInt();
+			System.out.println("Introduceti codCastigator");
+			String codCastigator3 = scan.nextLine();
+			p3[i] = new Premiu(numePremiu3, dataExtr3, oraExtr3, codCastigator3);
+			
+			
+		}
+		c[2] = new Categorie(" Categorie 3", p3);
+		
+		this.concurs = ArrayHelper.push(this.concurs, new Concurs(nume, c));
+		
 	}
 
-	
 	/**
 	 * 
 	 */
@@ -36,35 +107,31 @@ public class Administrator {
 	 */
 	public void anuntareConcurs() {
 	}
-	
-	
+
 	public void afisareConcurs() {
-		
+
 	}
+	public Administrator() {}
 	
-	public Administrator( String nume) {
-		
+	public Administrator(String nume) {
+		this.concurs = new Concurs[0];
 		this.nume = nume;
 	}
-
 
 	public Concurs[] getConcurs() {
 		return concurs;
 	}
 
-
 	public void setConcurs(Concurs[] concurs) {
 		this.concurs = concurs;
 	}
-
 
 	public String getNume() {
 		return nume;
 	}
 
-
 	public void setNume(String nume) {
 		this.nume = nume;
 	}
-	
+
 };

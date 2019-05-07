@@ -47,9 +47,8 @@ public class Categorie {
 	}
 
 	public Categorie(String nume, Premiu[] premii) {
-		super();
 		this.nume = nume;
 		this.premii = premii;
 	}
-	
+
 };

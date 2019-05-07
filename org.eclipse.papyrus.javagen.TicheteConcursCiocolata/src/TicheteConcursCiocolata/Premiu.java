@@ -16,7 +16,7 @@ public class Premiu {
 	private String dataExtragere;
 	private int oraExtragere;
 	private String codCastigator;
-	
+
 	public String getNume() {
 		return nume;
 	}
@@ -52,12 +52,12 @@ public class Premiu {
 	/**
 	 * 
 	 */
-	
+
 	/**
 	 * 
 	 */
 	public void extragereCodCastigator() {
-		
+
 	}
 
 	/**
@@ -66,12 +66,16 @@ public class Premiu {
 	public void verificareCastigCod() {
 	}
 
+	public Premiu() {
+		
+		
+	}
 	public Premiu(String nume, String dataExtragere, int oraExtragere, String codCastigator) {
-		super();
+		
 		this.nume = nume;
 		this.dataExtragere = dataExtragere;
 		this.oraExtragere = oraExtragere;
 		this.codCastigator = codCastigator;
 	}
-	
+
 };

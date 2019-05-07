@@ -31,11 +31,10 @@ public class Participant {
 	/**
 	 * 
 	 */
-	
+
 	public void afisareNumarDeCoduriIntroduse() {
 	}
 
-	
 	public String getNume() {
 		return nume;
 	}
@@ -65,6 +64,5 @@ public class Participant {
 		this.nume = nume;
 		this.telefon = telefon;
 	}
-	
-	
+
 };

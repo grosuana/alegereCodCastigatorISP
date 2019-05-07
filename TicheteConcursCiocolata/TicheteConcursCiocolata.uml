@@ -43,9 +43,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CHxSsFbcEemwX6UL-JQQCg" value="*"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_GbiGkFbfEemwX6UL-JQQCg" name="adaugareCod" concurrency="concurrent"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_4DGRMHDkEemI2d0SRfDfMg" name="verificareCoduriIntroduse"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_4WZAoHDkEemI2d0SRfDfMg" name="afisareCoduriIntroduse"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_4l5cQHDkEemI2d0SRfDfMg" name="afisarePremiiCastigate"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4WZAoHDkEemI2d0SRfDfMg" name="afisareNumarDeCoduriIntroduse"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_65BiIFbdEemwX6UL-JQQCg" memberEnd="_65ElcFbdEemwX6UL-JQQCg _65FMgFbdEemwX6UL-JQQCg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_65CwQFbdEemwX6UL-JQQCg" source="org.eclipse.papyrus">
@@ -269,6 +267,7 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_09ubsHDkEemI2d0SRfDfMg" name="adaugareConcursNou"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_1WGfcHDkEemI2d0SRfDfMg" name="stergereConcurs"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_1nB3YHDkEemI2d0SRfDfMg" name="anuntareConcurs"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dpue0HDmEemI2d0SRfDfMg" name="afisareConcurs"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_6DxxUFqwEem2CfQ3IBuTKw" memberEnd="_6DxxU1qwEem2CfQ3IBuTKw _6DxxVlqwEem2CfQ3IBuTKw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6DxxUVqwEem2CfQ3IBuTKw" source="org.eclipse.papyrus">

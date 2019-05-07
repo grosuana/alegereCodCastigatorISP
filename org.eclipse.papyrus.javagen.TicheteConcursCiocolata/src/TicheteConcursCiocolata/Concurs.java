@@ -59,10 +59,11 @@ public class Concurs {
 	}
 
 	public Concurs(String numeConcurs, Categorie[] categorii) {
-		
 		this.numeConcurs = numeConcurs;
-	
+		this.categorii = categorii;
+		
 	}
+
 	
-	
+
 };

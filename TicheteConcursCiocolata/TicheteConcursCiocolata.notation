@@ -117,17 +117,9 @@
           <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_GbiGkFbfEemwX6UL-JQQCg"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_GbqpcVbfEemwX6UL-JQQCg"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_4DUToHDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
-          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_4DGRMHDkEemI2d0SRfDfMg"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_4DUToXDkEemI2d0SRfDfMg"/>
-        </children>
         <children xmi:type="notation:Shape" xmi:id="_4Wl08HDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
           <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_4WZAoHDkEemI2d0SRfDfMg"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_4Wl08XDkEemI2d0SRfDfMg"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_4mHesHDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
-          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_4l5cQHDkEemI2d0SRfDfMg"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_4mHesXDkEemI2d0SRfDfMg"/>
         </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_4aVZiVbaEemwX6UL-JQQCg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_4aVZilbaEemwX6UL-JQQCg"/>
@@ -208,6 +200,10 @@
         <children xmi:type="notation:Shape" xmi:id="_1nNdkHDkEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
           <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_1nB3YHDkEemI2d0SRfDfMg"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_1nNdkXDkEemI2d0SRfDfMg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dqNnAHDmEemI2d0SRfDfMg" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="TicheteConcursCiocolata.uml#_dpue0HDmEemI2d0SRfDfMg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_dqNnAXDmEemI2d0SRfDfMg"/>
         </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_24m13FqwEem2CfQ3IBuTKw"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_24m13VqwEem2CfQ3IBuTKw"/>
