@@ -15,6 +15,10 @@ public class Premiu {
 	private int oraExtragere;
 	private String codCastigator;
 	private String codCastigator2;
+	
+	
+	
+
 	public String getCodCastigator2() {
 		return codCastigator2;
 	}
@@ -104,5 +108,28 @@ public class Premiu {
 		this.oraExtragere = oraExtragere;
 		this.codCastigator = codCastigator;
 	}
+	public boolean verificareNumePremiu() {
+
+        if (this.nume.equals("")) {
+            return false;
+        };
+        if (this.nume.length() > 10) {
+            return false;
+        };
+        return true;
+    }
+
+    public boolean verificareCodPremiu() {
+    	int codCastigatorInt = Integer.parseInt(this.codCastigator);
+        if(codCastigatorInt > 100) {
+            return false;
+        };
+
+        if(codCastigatorInt < 0) {
+            return false;
+        };
+        return true;
+    }
+   
 
 };

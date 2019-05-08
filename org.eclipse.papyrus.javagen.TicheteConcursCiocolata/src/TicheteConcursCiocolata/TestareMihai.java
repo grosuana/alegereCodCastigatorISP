@@ -66,5 +66,25 @@ class TestareMihai {
 		assertFalse(participant3.verificareNumarCoduri());;
 
 }
+	@Test
+	void testCodCastigator() {
+		Participant participant1 = new Participant("mihai", "23");
+		assertTrue(participant1.verificareCodCastigator());
+	
+		Participant participant2 = new Participant("mihai", "8");
+		assertFalse(participant2.verificareCodCastigator());
+		
+		Participant participant3 = new Participant("mihai", "13");
+		assertFalse(participant3.verificareCodCastigator());
+		
+		Participant participant4 = new Participant("mihai", "11");
+		assertTrue(participant4.verificareCodCastigator());
+		
+		Participant participant5 = new Participant("mihai", "9");
+		assertFalse(participant5.verificareCodCastigator());
+		
+		Participant participant6 = new Participant("mihai", "10");
+		assertTrue(participant6.verificareCodCastigator());
 
+	}
 }

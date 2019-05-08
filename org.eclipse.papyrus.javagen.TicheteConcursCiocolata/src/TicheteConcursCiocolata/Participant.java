@@ -78,16 +78,17 @@ public class Participant extends Administrator {
 	public void setCoduriIntroduse(String[] coduriIntroduse) {
 		this.coduriIntroduse = coduriIntroduse;
 	}
-	
+
 	public Participant(String nume, String codIntrodus) {
 		super();
 		this.nume = nume;
 		this.codIntrodus = codIntrodus;
 	}
+
 	public Participant(String nume, int numarDeCoduri) {
 		this.nume = nume;
-		this.numarDeCoduri  = numarDeCoduri;
-		
+		this.numarDeCoduri = numarDeCoduri;
+
 	}
 
 	public void introducereDateParticipant() {
@@ -101,66 +102,62 @@ public class Participant extends Administrator {
 		for (int i = 0; i < nrCoduri; i++) {
 			System.out.println("Introduceti cod castigator");
 			String codIntrodus = scan.nextLine();
-			
-			if(verificareCod(codIntrodus)) {
-			System.out.println(" Codul este valid");
-			}
-			else {
+
+			if (verificareCod(codIntrodus)) {
+				System.out.println(" Codul este valid");
+			} else {
 				System.out.println("Codul este invalid");
-				nrCoduri --;
+				nrCoduri--;
 				i--;
 			}
 			if (i == 0) {
 				System.out.println("Participati pentru categoria 1 de premii");
-				for(int j = 0; j < nrPremii1;j++) {
-					for(int k = 0; k <= i; k++ )
-					if(p[j].codCastigator == coduriIntroduse[k]) {
-						System.out.println("Codul este castigator");
-					}
-					else System.out.println("Codul nu este castigator");
-					
+				for (int j = 0; j < nrPremii1; j++) {
+					for (int k = 0; k <= i; k++)
+						if (p[j].codCastigator == coduriIntroduse[k]) {
+							System.out.println("Codul este castigator");
+						} else
+							System.out.println("Codul nu este castigator");
+
 				}
 
-				
 			} else if (i == 2) {
 				System.out.println("Participati pentru categoria 2 de premii");
-				for(int j = 0; j < nrPremii2;j++) {
-					if(p2[j].getCodCastigator2() == codIntrodus) {
+				for (int j = 0; j < nrPremii2; j++) {
+					if (p2[j].getCodCastigator2() == codIntrodus) {
 						System.out.println("Codul este castigator");
-					}
-					else System.out.println("Codul nu este castigator");
+					} else
+						System.out.println("Codul nu este castigator");
 				}
 
 			} else if (i == 4) {
 				System.out.println("Participati pentru categoria 3 de premii");
-				for(int j = 0; j < nrPremii3;j++) {
-					if(p3[j].getCodCastigator3() == codIntrodus) {
+				for (int j = 0; j < nrPremii3; j++) {
+					if (p3[j].getCodCastigator3() == codIntrodus) {
 						System.out.println("Codul este castigator");
-					}
-					else System.out.println("Codul nu este castigator");
+					} else
+						System.out.println("Codul nu este castigator");
 
-			}
-			}
-			else if (i > 4) {
+				}
+			} else if (i > 4) {
 				System.out.println(" Ati introdus maximul de coduri deja");
 				i = nrCoduri + 1;
 
 			} else
 				System.out.println(" Nu sunteti eligibil pentru urmatoarea categorie");
-		
-	}
+
+		}
 	}
 
-	
 	public boolean verificareCod(String codIntrodus) {
 		int codIntrod = Integer.parseInt(codIntrodus);
-		if((codIntrod < 0) || codIntrod > 100) {
+		if ((codIntrod < 0) || codIntrod > 100) {
 			return false;
-		}
-		else 
+		} else
 			return true;
-		
+
 	}
+
 	public Participant(String nume) {
 		this.nume = nume;
 
@@ -170,31 +167,39 @@ public class Participant extends Administrator {
 
 		if (this.nume.equals("")) {
 			return false;
-		};
+		}
+		;
 		if (this.nume.length() > 30) {
 			return false;
-		};
+		}
+		;
 		return true;
 	}
-	
+
 	public boolean verificareCod() {
 		int codIntrod = Integer.parseInt(this.codIntrodus);
-		if((codIntrod < 0) || codIntrod > 100) {
+		if ((codIntrod < 0) || codIntrod > 100) {
 			return false;
-		}
-		else 
+		} else
 			return true;
-		
+
 	}
+
 	public boolean verificareNumarCoduri() {
-		if(this.numarDeCoduri > 6)
+		if (this.numarDeCoduri > 6)
 			return false;
-		if(this.numarDeCoduri < 0)
+		if (this.numarDeCoduri < 0)
 			return false;
-		
-			return true;
-	
-	
+
+		return true;
+
 	}
+	
+	 public boolean verificareCodCastigator() {
+	    	int codCastigatorInt = Integer.parseInt(this.codIntrodus);
+	    	if( codCastigatorInt == 10 || codCastigatorInt == 11 || codCastigatorInt == 23 )
+	    		return true;
+	    	return false;
+	    }
 
 };
