@@ -10,7 +10,7 @@ import java.util.Scanner;
 /**
  * 
  */
-public class Administrator {
+public class Administrator extends Premiu {
 	/**
 	 * 
 	 */
@@ -19,6 +19,16 @@ public class Administrator {
 	 * 
 	 */
 	private String nume;
+	public int nrPremii1;
+	public int nrPremii2;
+	public int nrPremii3;
+	public String codCastigator;
+	public String codCastigator2;
+	public String codCastigator3;
+	Premiu[] p;
+	Premiu[] p2;
+	Premiu[] p3;
+	
 
 	/**
 	 * 
@@ -31,12 +41,12 @@ public class Administrator {
 		String nume = scan.nextLine();
 
 		System.out.println("  Numar premii pentru categoria 1");
-		int nrPremii1 = scan.nextInt();
+		 nrPremii1 = scan.nextInt();
 		scan.nextLine();
 
 		System.out.println(nrPremii1);
 
-		Premiu[] p = new Premiu[nrPremii1];
+		 p = new Premiu[nrPremii1];
 		Categorie[] c = new Categorie[3];
 
 		for (int i = 0; i < nrPremii1; i++) {
@@ -54,7 +64,8 @@ public class Administrator {
 			scan.nextLine();
 
 			System.out.println("Introduceti codCastigator");
-			String codCastigator = scan.nextLine();
+			 codCastigator = scan.nextLine();
+			 setCodCastigator(codCastigator);
 
 			if (oraExtr > 24 || oraExtr < 0) {
 				System.out.println("Ora invalida");
@@ -70,10 +81,10 @@ public class Administrator {
 		c[0] = new Categorie(" Categorie 1", p);
 
 		System.out.println("  Numar premii pentru categoria 2");
-		int nrPremii2 = scan.nextInt();
+		 nrPremii2 = scan.nextInt();
 		scan.nextLine();
 
-		Premiu[] p2 = new Premiu[nrPremii2];
+		 p2 = new Premiu[nrPremii2];
 
 		for (int i = 0; i < nrPremii2; i++) {
 			valide = true;
@@ -86,7 +97,8 @@ public class Administrator {
 			scan.nextLine();
 
 			System.out.println("Introduceti codCastigator");
-			String codCastigator2 = scan.nextLine();
+			 codCastigator2 = scan.nextLine();
+			 setCodCastigator(codCastigator2);
 
 			if (oraExtr2 > 24 || oraExtr2 < 0) {
 				System.out.println("Ora invalida");
@@ -102,7 +114,7 @@ public class Administrator {
 		c[1] = new Categorie(" Categorie 2", p2);
 
 		System.out.println("  Numar premii pentru categoria 3");
-		int nrPremii3 = scan.nextInt();
+		 nrPremii3 = scan.nextInt();
 		scan.nextLine();
 
 		Premiu[] p3 = new Premiu[nrPremii3];
@@ -119,7 +131,8 @@ public class Administrator {
 			scan.nextLine();
 
 			System.out.println("Introduceti cod castigator");
-			String codCastigator3 = scan.nextLine();
+			 codCastigator3 = scan.nextLine();
+			 setCodCastigator(codCastigator3);
 
 			if (oraExtr3 > 24 || oraExtr3 < 0) {
 				System.out.println("Ora invalida");
@@ -137,8 +150,8 @@ public class Administrator {
 		c[2] = new Categorie(" Categorie 3", p3);
 		Concurs concursNou = new Concurs(nume, c);
 		this.concurs = ArrayHelper.push(this.concurs, concursNou);
-		System.out.println("valideeeeeeeeeeeezzzzzzzz");
-		concursNou.validareOraData();
+		//System.out.println("valideeeeeeeeeeeezzzzzzzz");
+		//concursNou.validareOraData();
 
 	}
 

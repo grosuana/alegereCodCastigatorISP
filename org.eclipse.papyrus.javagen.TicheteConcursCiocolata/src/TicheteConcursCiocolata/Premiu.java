@@ -14,6 +14,24 @@ public class Premiu {
 	private String dataExtragere;
 	private int oraExtragere;
 	private String codCastigator;
+	private String codCastigator2;
+	public String getCodCastigator2() {
+		return codCastigator2;
+	}
+
+	public void setCodCastigator2(String codCastigator2) {
+		this.codCastigator2 = codCastigator2;
+	}
+
+	public String getCodCastigator3() {
+		return codCastigator3;
+	}
+
+	public void setCodCastigator3(String codCastigator3) {
+		this.codCastigator3 = codCastigator3;
+	}
+
+	private String codCastigator3;
 	
 	public void afisare() {
 		System.out.println("\tNume premiu: " +  this.nume);

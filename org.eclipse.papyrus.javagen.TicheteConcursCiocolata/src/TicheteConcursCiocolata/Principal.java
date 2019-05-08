@@ -7,6 +7,8 @@ public class Principal  extends Administrator{
 	public static  void main(String[] args) {
 		 
 		Administrator a1 = new Administrator("admin");
+		
+		Participant p1 = new Participant("Gelu");
 		String choice, choice2, choice3;
 		System.out.println("------- MENIU ------");
 		Scanner scan = new Scanner(System.in);
@@ -24,6 +26,7 @@ public class Principal  extends Administrator{
 				System.out.println(" 2 - Afisare Concursuri ");
 				System.out.println(" 3 - Stergere  Concurs ");
 				System.out.println(" 4 - Anuntare  Concurs ");
+				System.out.println(" 9 - Schimbati pentru participare ");
 				choice2 = scan.nextLine();
 						switch(choice2) {
 						case "1" :
@@ -38,24 +41,29 @@ public class Principal  extends Administrator{
 						case "4":
 							a1.anuntareConcurs();
 							break;
+						 
+						case "9":
+							System.out.println(" Ati ales sa participati");
+							choice = "p";
 						
 						}
-				break;
+				
 			case "p":
 				System.out.println( " Ati selectat sa participati ");
-				
 				System.out.println( " ---------- MENIU ---------");
-				System.out.println(" 1 - Creare cont nou ");
-				System.out.println(" 2 - Adaugare cod "); // ii cerem numele la fraier
-				System.out.println(" 3 - Verificare numar de coduri introduse ");
+				System.out.println(" 1 - Adaugare cod "); 
+				System.out.println(" 9 - Schimbati pentru administrare ");
 				choice2 = scan.nextLine();
 					switch(choice2) {
 						case "1" :
+							p1.introducereDateParticipant();
 							break;
-						case "2":
+						case "9" :
+							System.out.println(" Ati ales sa administrati");
+							choice = "a";
 							break;
-						case "3":
-							break;
+							
+							
 				
 			}
 

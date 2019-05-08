@@ -63,6 +63,11 @@ public class Concurs {
 		this.categorii = categorii;
 		
 	}
+	public Concurs(String numeConcurs, Participant[] participanti) {
+		this.numeConcurs = numeConcurs;
+		this.participanti = participanti;
+		
+	}
 
 	/*ANA GROSU: FUNCTII PENTRU VERIFICARE ADAUGARE CONCURS*/
 	
