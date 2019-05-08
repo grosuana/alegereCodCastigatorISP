@@ -23,6 +23,24 @@ public class Participant extends Administrator {
 	 * 
 	 */
 	private String[] coduriIntroduse;
+	private String codIntrodus;
+	private int numarDeCoduri;
+
+	public int getNumarDeCoduri() {
+		return numarDeCoduri;
+	}
+
+	public void setNumarDeCoduri(int numarDeCoduri) {
+		this.numarDeCoduri = numarDeCoduri;
+	}
+
+	public String getCodIntrodus() {
+		return codIntrodus;
+	}
+
+	public void setCodIntrodus(String codIntrodus) {
+		this.codIntrodus = codIntrodus;
+	}
 
 	/**
 	 * 
@@ -60,11 +78,16 @@ public class Participant extends Administrator {
 	public void setCoduriIntroduse(String[] coduriIntroduse) {
 		this.coduriIntroduse = coduriIntroduse;
 	}
-
-	public Participant(String nume, String telefon) {
+	
+	public Participant(String nume, String codIntrodus) {
 		super();
 		this.nume = nume;
-		this.telefon = telefon;
+		this.codIntrodus = codIntrodus;
+	}
+	public Participant(String nume, int numarDeCoduri) {
+		this.nume = nume;
+		this.numarDeCoduri  = numarDeCoduri;
+		
 	}
 
 	public void introducereDateParticipant() {
@@ -78,11 +101,20 @@ public class Participant extends Administrator {
 		for (int i = 0; i < nrCoduri; i++) {
 			System.out.println("Introduceti cod castigator");
 			String codIntrodus = scan.nextLine();
+			
+			if(verificareCod(codIntrodus)) {
 			System.out.println(" Codul este valid");
+			}
+			else {
+				System.out.println("Codul este invalid");
+				nrCoduri --;
+				i--;
+			}
 			if (i == 0) {
 				System.out.println("Participati pentru categoria 1 de premii");
 				for(int j = 0; j < nrPremii1;j++) {
-					if(p[j].codCastigator == codIntrodus) {
+					for(int k = 0; k <= i; k++ )
+					if(p[j].codCastigator == coduriIntroduse[k]) {
 						System.out.println("Codul este castigator");
 					}
 					else System.out.println("Codul nu este castigator");
@@ -120,10 +152,49 @@ public class Participant extends Administrator {
 	}
 
 	
-
+	public boolean verificareCod(String codIntrodus) {
+		int codIntrod = Integer.parseInt(codIntrodus);
+		if((codIntrod < 0) || codIntrod > 100) {
+			return false;
+		}
+		else 
+			return true;
+		
+	}
 	public Participant(String nume) {
 		this.nume = nume;
 
+	}
+
+	public boolean verificareParticipant() {
+
+		if (this.nume.equals("")) {
+			return false;
+		};
+		if (this.nume.length() > 30) {
+			return false;
+		};
+		return true;
+	}
+	
+	public boolean verificareCod() {
+		int codIntrod = Integer.parseInt(this.codIntrodus);
+		if((codIntrod < 0) || codIntrod > 100) {
+			return false;
+		}
+		else 
+			return true;
+		
+	}
+	public boolean verificareNumarCoduri() {
+		if(this.numarDeCoduri > 6)
+			return false;
+		if(this.numarDeCoduri < 0)
+			return false;
+		
+			return true;
+	
+	
 	}
 
 };
