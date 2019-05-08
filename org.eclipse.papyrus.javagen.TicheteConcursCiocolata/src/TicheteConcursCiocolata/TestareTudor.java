@@ -1,5 +1,9 @@
-package TicheteConcursCiocolata;
+/** @author 
+ *  Tudor Mangri
+ * @grupa
+ * 332AB */
 
+package TicheteConcursCiocolata;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;

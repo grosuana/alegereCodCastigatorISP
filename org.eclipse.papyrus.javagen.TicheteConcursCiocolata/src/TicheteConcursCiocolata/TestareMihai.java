@@ -1,3 +1,9 @@
+/** @author 
+ *  Mihail Cristian Badea
+ * @grupa
+ * 332AB */
+
+
 package TicheteConcursCiocolata;
 
 import static org.junit.jupiter.api.Assertions.*;
