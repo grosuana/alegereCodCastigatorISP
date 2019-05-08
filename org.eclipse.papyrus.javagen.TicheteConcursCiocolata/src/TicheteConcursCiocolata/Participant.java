@@ -112,9 +112,8 @@ public class Participant extends Administrator {
 			}
 			if (i == 0) {
 				System.out.println("Participati pentru categoria 1 de premii");
-				for (int j = 0; j < nrPremii1; j++) {
-					for (int k = 0; k <= i; k++)
-						if (p[j].codCastigator == coduriIntroduse[k]) {
+				for (int j = 0; j < this.nrPremii1; j++) {
+						if (p[j].codCastigator.equals(codIntrodus)) {
 							System.out.println("Codul este castigator");
 						} else
 							System.out.println("Codul nu este castigator");
@@ -123,8 +122,8 @@ public class Participant extends Administrator {
 
 			} else if (i == 2) {
 				System.out.println("Participati pentru categoria 2 de premii");
-				for (int j = 0; j < nrPremii2; j++) {
-					if (p2[j].getCodCastigator2() == codIntrodus) {
+				for (int j = 0; j < this.nrPremii2; j++) {
+					if (p2[j].getCodCastigator2().equals(codIntrodus)) {
 						System.out.println("Codul este castigator");
 					} else
 						System.out.println("Codul nu este castigator");
@@ -132,7 +131,7 @@ public class Participant extends Administrator {
 
 			} else if (i == 4) {
 				System.out.println("Participati pentru categoria 3 de premii");
-				for (int j = 0; j < nrPremii3; j++) {
+				for (int j = 0; j < this.nrPremii3; j++) {
 					if (p3[j].getCodCastigator3() == codIntrodus) {
 						System.out.println("Codul este castigator");
 					} else

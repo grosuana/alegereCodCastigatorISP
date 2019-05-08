@@ -1,4 +1,7 @@
-//GROSU ANA, 332AB
+/** @author 
+ *  Grosu Ana
+ * @grupa
+ * 332AB */
 
 package TicheteConcursCiocolata;
 

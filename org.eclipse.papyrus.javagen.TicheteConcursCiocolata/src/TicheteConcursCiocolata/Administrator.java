@@ -33,6 +33,8 @@ public class Administrator extends Premiu {
 	/**
 	 * 
 	 */
+	
+
 	public void adaugareConcursNou() {
 		boolean valide = true;
 		Scanner scan = new Scanner(System.in);
@@ -193,7 +195,7 @@ public class Administrator extends Premiu {
 			System.out.println(this.concurs[i].categorii[2].getNume());
 			
 			for(int k=0; k<3; k++) {
-				System.out.println("Premiile categoriei " + k + ": ");
+				System.out.println("Premiile categoriei " + (k+1) + ": ");
 				for( int j = 0; j < this.concurs[j].categorii[k].premii.length; j++) {
 					this.concurs[j].categorii[k].premii[j].afisare();
 				}

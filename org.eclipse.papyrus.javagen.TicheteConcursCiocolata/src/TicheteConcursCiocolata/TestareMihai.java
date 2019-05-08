@@ -2,7 +2,7 @@
  *  Mihail Cristian Badea
  * @grupa
  * 332AB */
-
+//
 
 package TicheteConcursCiocolata;
 
@@ -14,15 +14,12 @@ class TestareMihai {
 
 	@Test
 	void testVerificareNumeParticipant() {
-		//initializari
-	
 		
-		
-		//testam numele de concurs gol
+		//Verifica nume gol
 		Participant participant1 = new Participant("", "23");
 		assertFalse(participant1.verificareParticipant());
 		
-		//testam un nume de concurs corect
+		//Verifica cu nume corect
 		Participant participant2 = new Participant("participant", "23");
 		assertTrue(participant2.verificareParticipant());
 		

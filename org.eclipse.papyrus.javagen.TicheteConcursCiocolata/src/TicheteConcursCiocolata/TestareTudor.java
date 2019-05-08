@@ -14,10 +14,8 @@ class TestareTudor {
 
     @Test
     void testVerificareNumePremiu() {
-        //initializari
-
-
-        //testam numele  golS
+      
+        //testam numele  gol
         Premiu premiu1 = new Premiu("", "23",1,"20");
         assertFalse(premiu1.verificareNumePremiu());
 
@@ -33,14 +31,15 @@ class TestareTudor {
     @Test
     void testIntroducereCod() {
 
+    			//verifica cod corect (intre 0 si 100)
                 Premiu premiu1 = new Premiu("ciocolata", "23",1,"20");
                 assertTrue(premiu1.verificareCodPremiu());
 
-
+                //verifica incorect (prea mic)
                 Premiu premiu2 = new Premiu("ciocolata", "23",1,"-1");
                 assertFalse(premiu2.verificareCodPremiu());
-
-
+                
+                //verifica incorect (prea mare)
                 Premiu premiu3 = new Premiu("ciocolata", "23",1,"200");
                 assertFalse(premiu3.verificareCodPremiu());;
 
